@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_trWsgPn2EeeMccJD5RrNqg" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_trw8MPn2EeeMccJD5RrNqg" name="Сохранение введенных данных теста">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_-0TVAPn3EeeMccJD5RrNqg" name="AddQuestionsTestServlet" coveredBy="_d9YF0Pn4EeeMccJD5RrNqg _d9Z7APn4EeeMccJD5RrNqg _d9Ys4Pn4EeeMccJD5RrNqg _fzpq8Pn4EeeMccJD5RrNqg _7Q4cIPn4EeeMccJD5RrNqg _c0T6EPn6EeeMccJD5RrNqg _PNokoPxNEeep39DgVy6qnw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RVIy8Pn4EeeMccJD5RrNqg" name="teacher : Teacher" coveredBy="_PNpLsPxNEeep39DgVy6qnw _uJFMUPxREeep39DgVy6qnw _uJHBgPxREeep39DgVy6qnw _4w3hAPn5EeeMccJD5RrNqg _0pyMUPn4EeeMccJD5RrNqg _0pyzYPn4EeeMccJD5RrNqg _7Q5DMPn4EeeMccJD5RrNqg _REcjAPxSEeep39DgVy6qnw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_SlfAgPn4EeeMccJD5RrNqg" name="test : Test" coveredBy="_MljB4Pn5EeeMccJD5RrNqg _Mljo8Pn5EeeMccJD5RrNqg _4w4vIPn5EeeMccJD5RrNqg _Rm7boPn6EeeMccJD5RrNqg _uJFMUPxREeep39DgVy6qnw _uJHBgPxREeep39DgVy6qnw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d9YF0Pn4EeeMccJD5RrNqg" name="ActionExecSpecStart" covered="_-0TVAPn3EeeMccJD5RrNqg" execution="_d9Ys4Pn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_d9Ys4Pn4EeeMccJD5RrNqg" name="ActionExecSpec" covered="_-0TVAPn3EeeMccJD5RrNqg" finish="_d9Z7APn4EeeMccJD5RrNqg" start="_d9YF0Pn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fzpq8Pn4EeeMccJD5RrNqg" name="MessageRecv" covered="_-0TVAPn3EeeMccJD5RrNqg" message="_fzoc0Pn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PNokoPxNEeep39DgVy6qnw" name="MessageSend2" covered="_-0TVAPn3EeeMccJD5RrNqg" message="_PNEj8PxNEeep39DgVy6qnw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PNpLsPxNEeep39DgVy6qnw" name="MessageRecv2" covered="_RVIy8Pn4EeeMccJD5RrNqg" message="_PNEj8PxNEeep39DgVy6qnw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7Q4cIPn4EeeMccJD5RrNqg" name="MessageSend" covered="_-0TVAPn3EeeMccJD5RrNqg" message="_7Q3OAPn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_REcjAPxSEeep39DgVy6qnw" name="ActionExecSpec0Start" covered="_RVIy8Pn4EeeMccJD5RrNqg" execution="_0pyMUPn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_0pyMUPn4EeeMccJD5RrNqg" name="ActionExecSpec0" covered="_RVIy8Pn4EeeMccJD5RrNqg" finish="_0pyzYPn4EeeMccJD5RrNqg" start="_REcjAPxSEeep39DgVy6qnw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7Q5DMPn4EeeMccJD5RrNqg" name="MessageRecv0" covered="_RVIy8Pn4EeeMccJD5RrNqg" message="_7Q3OAPn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_uJFMUPxREeep39DgVy6qnw" name="CombinedFragment" covered="_RVIy8Pn4EeeMccJD5RrNqg _SlfAgPn4EeeMccJD5RrNqg" interactionOperator="loop">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_uJHBgPxREeep39DgVy6qnw" name="InteractionOperand" covered="_RVIy8Pn4EeeMccJD5RrNqg _SlfAgPn4EeeMccJD5RrNqg">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4w3hAPn5EeeMccJD5RrNqg" name="MessageSend" covered="_RVIy8Pn4EeeMccJD5RrNqg" message="_4w1r0Pn5EeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MljB4Pn5EeeMccJD5RrNqg" name="ActionExecSpec1" covered="_SlfAgPn4EeeMccJD5RrNqg" finish="_Mljo8Pn5EeeMccJD5RrNqg" start="_4w4vIPn5EeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4w4vIPn5EeeMccJD5RrNqg" name="MessageRecv1" covered="_SlfAgPn4EeeMccJD5RrNqg" message="_4w1r0Pn5EeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Rm7boPn6EeeMccJD5RrNqg" name="MessageSend0" covered="_SlfAgPn4EeeMccJD5RrNqg" message="_Rm5mcPn6EeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Rm8CsPn6EeeMccJD5RrNqg" name="MessageRecv2" message="_Rm5mcPn6EeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Mljo8Pn5EeeMccJD5RrNqg" name="ActionExecSpec1Finish" covered="_SlfAgPn4EeeMccJD5RrNqg" execution="_MljB4Pn5EeeMccJD5RrNqg"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_uJHokPxREeep39DgVy6qnw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_uJHokfxREeep39DgVy6qnw" value="question : test.setQuestions()"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_c0TTAPn6EeeMccJD5RrNqg" name="MessageSend1" message="_c0Rd0Pn6EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_0pyzYPn4EeeMccJD5RrNqg" name="ActionExecSpec0Finish" covered="_RVIy8Pn4EeeMccJD5RrNqg" execution="_0pyMUPn4EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_c0T6EPn6EeeMccJD5RrNqg" name="MessageRecv1" covered="_-0TVAPn3EeeMccJD5RrNqg" message="_c0Rd0Pn6EeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d9Z7APn4EeeMccJD5RrNqg" name="ActionExecSpecFinish" covered="_-0TVAPn3EeeMccJD5RrNqg" execution="_d9Ys4Pn4EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_fzoc0Pn4EeeMccJD5RrNqg" name="saveTestClck(loginUser,test)" messageSort="asynchSignal" receiveEvent="_fzpq8Pn4EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_7Q3OAPn4EeeMccJD5RrNqg" name="addNewTeacherTest(test)" receiveEvent="_7Q5DMPn4EeeMccJD5RrNqg" sendEvent="_7Q4cIPn4EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_4w1r0Pn5EeeMccJD5RrNqg" name="addQuestion(question)" receiveEvent="_4w4vIPn5EeeMccJD5RrNqg" sendEvent="_4w3hAPn5EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_Rm5mcPn6EeeMccJD5RrNqg" name="Вопрос добавлен в базу данных" messageSort="reply" receiveEvent="_Rm8CsPn6EeeMccJD5RrNqg" sendEvent="_Rm7boPn6EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_c0Rd0Pn6EeeMccJD5RrNqg" name="Фиксация результата добавления теста" messageSort="reply" receiveEvent="_c0T6EPn6EeeMccJD5RrNqg" sendEvent="_c0TTAPn6EeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_PNEj8PxNEeep39DgVy6qnw" name="create (loginUser)" messageSort="createMessage" receiveEvent="_PNpLsPxNEeep39DgVy6qnw" sendEvent="_PNokoPxNEeep39DgVy6qnw"/>
+  </packagedElement>
+</uml:Model>

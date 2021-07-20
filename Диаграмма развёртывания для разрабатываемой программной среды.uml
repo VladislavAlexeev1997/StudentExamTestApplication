@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rXptEPoNEeeMccJD5RrNqg" name="RootElement">
+  <packagedElement xmi:type="uml:Device" xmi:id="_vLMQIPoNEeeMccJD5RrNqg" name="Клиент">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jBeP0PoOEeeMccJD5RrNqg" name="web-сервер" type="_FrwTAPoOEeeMccJD5RrNqg" association="_jBcaoPoOEeeMccJD5RrNqg"/>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_9cPT4PoNEeeMccJD5RrNqg" name="Web-браузер"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_FrwTAPoOEeeMccJD5RrNqg" name="Web-сервер">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vqVNwvoOEeeMccJD5RrNqg" name="приложение (сервер приложения)" type="_pfCJIPoOEeeMccJD5RrNqg" association="_vqT_oPoOEeeMccJD5RrNqg"/>
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_ahTwIPoPEeeMccJD5RrNqg" name="SQLite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_jBcaoPoOEeeMccJD5RrNqg" name="HTTP" memberEnd="_jBeP0PoOEeeMccJD5RrNqg _jBe24PoOEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jBdowPoOEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jBdowfoOEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jBe24PoOEeeMccJD5RrNqg" name="клиент" type="_vLMQIPoNEeeMccJD5RrNqg" association="_jBcaoPoOEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_pfCJIPoOEeeMccJD5RrNqg" name="Приложение (сервер приложения)">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_f8wFIPoPEeeMccJD5RrNqg" name="Пользовательские данные"/>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_Ro5IgPoQEeeMccJD5RrNqg" name="Формы для ввода и вывода данных"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_vqT_oPoOEeeMccJD5RrNqg" name="TCP/IP" memberEnd="_vqVNwvoOEeeMccJD5RrNqg _vqV00PoOEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vqVNwPoOEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vqVNwfoOEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vqV00PoOEeeMccJD5RrNqg" name="web-сервер" type="_FrwTAPoOEeeMccJD5RrNqg" association="_vqT_oPoOEeeMccJD5RrNqg"/>
+  </packagedElement>
+</uml:Model>

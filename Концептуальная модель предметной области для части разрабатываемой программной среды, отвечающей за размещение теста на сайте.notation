@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-2hukPlzEeeMccJD5RrNqg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_NrSjYPl0EeeMccJD5RrNqg" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NtOdEPl0EeeMccJD5RrNqg" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NtPEIPl0EeeMccJD5RrNqg" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NtPEIfl0EeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Ntp64Pl0EeeMccJD5RrNqg" type="DataType_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_51avsPl0EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_508OkPl0EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_51bWwPl0EeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WXlIoPl1EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_WXXGMPl1EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WXlIofl1EeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Xb3QIPl1EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Xbn_kPl1EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xb3QIfl1EeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_YOUn0Pl1EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_YOEJIPl1EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YOUn0fl1EeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Ntp64fl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Ntp64vl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Ntp64_l0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ntp65Pl0EeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NudzMPl0EeeMccJD5RrNqg" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_NudzMfl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NudzMvl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NudzM_l0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NudzNPl0EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:DataType" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Nn6fQPl0EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NrSjYfl0EeeMccJD5RrNqg" x="146" y="61" height="123"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OOq9QPl0EeeMccJD5RrNqg" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OOsLYPl0EeeMccJD5RrNqg" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OOsLYfl0EeeMccJD5RrNqg" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OOsLYvl0EeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OOsLY_l0EeeMccJD5RrNqg" type="DataType_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_JSSQ4Pl2EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_JRF-EPl2EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JSSQ4fl2EeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Wo0NIPl2EeeMccJD5RrNqg" type="Property_DataTypeAttributeLabel">
+        <element xmi:type="uml:Property" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_WoZWYPl2EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Wo0NIfl2EeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OOsLZPl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OOsLZfl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OOsLZvl0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OOsLZ_l0EeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OOsLaPl0EeeMccJD5RrNqg" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OOsLafl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OOsLavl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OOsLa_l0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OOsLbPl0EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:DataType" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OOohAPl0EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OOq9Qfl0EeeMccJD5RrNqg" x="434" y="69" height="98"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OfEJsPl0EeeMccJD5RrNqg" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OfEwwPl0EeeMccJD5RrNqg" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OfEwwfl0EeeMccJD5RrNqg" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OfEwwvl0EeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OfEww_l0EeeMccJD5RrNqg" type="DataType_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OfEwxPl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OfEwxfl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OfEwxvl0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfEwx_l0EeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OfFX0Pl0EeeMccJD5RrNqg" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OfFX0fl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OfFX0vl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OfFX0_l0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfFX1Pl0EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:DataType" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OfBtcPl0EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfEJsfl0EeeMccJD5RrNqg" x="152" y="275" width="143" height="113"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Oy8vAPl0EeeMccJD5RrNqg" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Oy8vAvl0EeeMccJD5RrNqg" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Oy9WEPl0EeeMccJD5RrNqg" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Oy9WEfl0EeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Oy9WEvl0EeeMccJD5RrNqg" type="DataType_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Oy9WE_l0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Oy9WFPl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Oy9WFfl0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oy9WFvl0EeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Oy9WF_l0EeeMccJD5RrNqg" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Oy9WGPl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Oy9WGfl0EeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Oy9WGvl0EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oy9WG_l0EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:DataType" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Ox-eoPl0EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oy8vAfl0EeeMccJD5RrNqg" x="509" y="276" width="131" height="113"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_-2hukflzEeeMccJD5RrNqg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-2hukvlzEeeMccJD5RrNqg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_-2huk_lzEeeMccJD5RrNqg">
+    <owner xmi:type="uml:Model" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_-X_YcPlzEeeMccJD5RrNqg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_-X_YcPlzEeeMccJD5RrNqg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_2pfUUPl2EeeMccJD5RrNqg" type="Association_Edge" source="_NrSjYPl0EeeMccJD5RrNqg" target="_OOq9QPl0EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pf7YPl2EeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqN_sPl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pf7Yfl2EeeMccJD5RrNqg" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pf7Yvl2EeeMccJD5RrNqg" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqdQQPl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pf7Y_l2EeeMccJD5RrNqg" x="-1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pf7ZPl2EeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_9kqWsPl2EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Dqsg0Pl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pgicPl2EeeMccJD5RrNqg" x="37" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pgicfl2EeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_8ohekPl2EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Dq7xYPl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pgicvl2EeeMccJD5RrNqg" x="-59" y="23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pgic_l2EeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DrLB8Pl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pgidPl2EeeMccJD5RrNqg" x="5" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2pgidfl2EeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DrbgoPl3EeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2pgidvl2EeeMccJD5RrNqg" x="-23" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2pfUUfl2EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_2nqIUPl2EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2pfUUvl2EeeMccJD5RrNqg" points="[300, 125, -643984, -643984]$[434, 125, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2r_1wPl2EeeMccJD5RrNqg" id="(1.0,0.4878048780487805)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2r_1wfl2EeeMccJD5RrNqg" id="(0.0,0.5306122448979592)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HgrT4Pl3EeeMccJD5RrNqg" type="Association_Edge" source="_OOq9QPl0EeeMccJD5RrNqg" target="_Oy8vAPl0EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hgr68Pl3EeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hgr68fl3EeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hgr68vl3EeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hgr68_l3EeeMccJD5RrNqg" x="-5" y="-6"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hgr69Pl3EeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_PluvcPl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hgr69fl3EeeMccJD5RrNqg" x="35" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hgr69vl3EeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_Q1wM4Pl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgsiAPl3EeeMccJD5RrNqg" x="-39" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HgsiAfl3EeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgsiAvl3EeeMccJD5RrNqg" x="-5" y="26"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HgsiA_l3EeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgsiBPl3EeeMccJD5RrNqg" x="7" y="-14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HgrT4fl3EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Hf6e4Pl3EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HgrT4vl3EeeMccJD5RrNqg" points="[569, 167, -643984, -643984]$[569, 276, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HhhocPl3EeeMccJD5RrNqg" id="(0.5212355212355212,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HhiPgPl3EeeMccJD5RrNqg" id="(0.4580152671755725,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dsLswPl3EeeMccJD5RrNqg" type="Association_Edge" source="_NrSjYPl0EeeMccJD5RrNqg" target="_OfEJsPl0EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsLsw_l3EeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsLsxPl3EeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsLsxfl3EeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsLsxvl3EeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsMT0Pl3EeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_isHKcPl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsMT0fl3EeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsMT0vl3EeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_maTTcPl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsMT0_l3EeeMccJD5RrNqg" x="-37" y="-6"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsMT1Pl3EeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsMT1fl3EeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dsMT1vl3EeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dsMT1_l3EeeMccJD5RrNqg" x="5" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dsLswfl3EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_dr4KwPl3EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dsLswvl3EeeMccJD5RrNqg" points="[228, 184, -643984, -643984]$[228, 275, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dtmpEPl3EeeMccJD5RrNqg" id="(0.5324675324675324,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dtmpEfl3EeeMccJD5RrNqg" id="(0.5314685314685315,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hee5sPl3EeeMccJD5RrNqg" type="Association_Edge" source="_OfEJsPl0EeeMccJD5RrNqg" target="_OOq9QPl0EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgwPl3EeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hefgwfl3EeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgwvl3EeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hefgw_l3EeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgxPl3EeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_losQUPl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hefgxfl3EeeMccJD5RrNqg" x="10" y="27"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgxvl3EeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_k8-Z0Pl3EeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hefgx_l3EeeMccJD5RrNqg" x="-78" y="12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgyPl3EeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hefgyfl3EeeMccJD5RrNqg" x="-29" y="7"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hefgyvl3EeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hegH0Pl3EeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hee5sfl3EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Концептуальная%20модель%20предметной%20области%20для%20части%20разрабатываемой%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_hdZUkPl3EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hee5svl3EeeMccJD5RrNqg" points="[295, 298, -643984, -643984]$[452, 167, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hfgNYPl3EeeMccJD5RrNqg" id="(1.0,0.20353982300884957)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hfgNYfl3EeeMccJD5RrNqg" id="(0.0694980694980695,1.0)"/>
+  </edges>
+</notation:Diagram>

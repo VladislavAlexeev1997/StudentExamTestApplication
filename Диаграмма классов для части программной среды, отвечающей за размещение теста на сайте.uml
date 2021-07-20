@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:PapyrusJava="http://www.eclipse.org/papyrus/PapyrusJava/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_uqRzQPpAEeeMccJD5RrNqg" name="RootElement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_wohooPpAEeeMccJD5RrNqg" name="Question" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2RzTYPpCEeeMccJD5RrNqg" name="question" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1u2-YPpCEeeMccJD5RrNqg" name="getQuestion">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_dY9VEPpDEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TeOxUPpDEeeMccJD5RrNqg" name="setQuestion">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_m3lLoPpDEeeMccJD5RrNqg" name="question">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_URG_wPpDEeeMccJD5RrNqg" name="calculateMark" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_zGJaQPpDEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_w9P7cPpAEeeMccJD5RrNqg" name="UnVaribleQuestion">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2U2qkPpGEeeMccJD5RrNqg" general="_wohooPpAEeeMccJD5RrNqg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_A-Tc4PpEEeeMccJD5RrNqg" name="rightAnswear" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CC8JsPpEEeeMccJD5RrNqg" name="userAnswear" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_D4MbIPpEEeeMccJD5RrNqg" name="getRightAnswear">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Xo_FEPpEEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_E3riMPpEEeeMccJD5RrNqg" name="setRightAnswear">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_e2WDoPpEEeeMccJD5RrNqg" name="rightAnswear">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FbrnIPpEEeeMccJD5RrNqg" name="calculateMark">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_p5ExQPpEEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xPHHgPpAEeeMccJD5RrNqg" name="SomeVaribleQuestion">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Xs83sPpHEeeMccJD5RrNqg" general="_wohooPpAEeeMccJD5RrNqg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hxla0PpGEeeMccJD5RrNqg" name="varibleAnswears" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wjbpEPpHEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wjnPQPpHEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jAAVwPpGEeeMccJD5RrNqg" name="rightAnswears" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_289W8PpHEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_29ErsPpHEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_j-eJIPpGEeeMccJD5RrNqg" name="userAnswears">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CP4csPpIEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CP_xcPpIEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mXufgPpGEeeMccJD5RrNqg" name="getVaribleAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_OE9NQPpIEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PhakMPpIEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PhxJgPpIEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mvMkUPpGEeeMccJD5RrNqg" name="setVaribleAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XUmMoPpIEeeMccJD5RrNqg" name="varibleAnswears">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ye6DoPpIEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YfKiUPpIEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_m8A4UPpGEeeMccJD5RrNqg" name="getRightAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fO3UgPpIEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gLjmQPpIEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gL0E8PpIEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nFC4gPpGEeeMccJD5RrNqg" name="setRightAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sHJOgPpIEeeMccJD5RrNqg" name="rightAnswears" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tR_RAPpIEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tSPIoPpIEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nO_esPpGEeeMccJD5RrNqg" name="calculateMark">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_z4lKgPpIEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xkTUYPpAEeeMccJD5RrNqg" name="OneVaribleQuestion">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9atS8PpGEeeMccJD5RrNqg" general="_wohooPpAEeeMccJD5RrNqg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8E62oPpEEeeMccJD5RrNqg" name="varibleAnswears" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IfzC8PpFEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IgEvwPpFEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8mM-wPpEEeeMccJD5RrNqg" name="rightAnswear" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_81XcIPpEEeeMccJD5RrNqg" name="userAnswear">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9MCPsPpEEeeMccJD5RrNqg" name="getVaribleAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hDEkcPpFEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jXgsQPpFEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jXxyAPpFEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9UzKIPpEEeeMccJD5RrNqg" name="setVaribleAnswears">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2dh64PpFEeeMccJD5RrNqg" name="varibleAnswears">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6uYFAPpFEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6uojsPpFEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9a05oPpEEeeMccJD5RrNqg" name="getRightAnswear">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_I9U3APpGEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9gxJkPpEEeeMccJD5RrNqg" name="setRightAnswear">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_O86a4PpGEeeMccJD5RrNqg" name="rightAnswear">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9muAkPpEEeeMccJD5RrNqg" name="calculateMark">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_WecSoPpGEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zteAUPpAEeeMccJD5RrNqg" name="Test">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_I5QSgPpKEeeMccJD5RrNqg" name="nameEducationObject" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JmVa8PpKEeeMccJD5RrNqg" name="nameTest" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KwaBYPpKEeeMccJD5RrNqg" name="questions" visibility="private" type="_wohooPpAEeeMccJD5RrNqg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pbG0IPpKEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pbPXAPpKEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OVOc4PpTEeeMccJD5RrNqg" name="sqlconnection" type="_0Wu_wPpAEeeMccJD5RrNqg" association="_OVLZkPpTEeeMccJD5RrNqg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Lh694PpKEeeMccJD5RrNqg" name="getNameEducationObject">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FHjGAPpLEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_M_NbQPpKEeeMccJD5RrNqg" name="setEducationObject">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_aQHbMPpLEeeMccJD5RrNqg" name="educationObject">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NjsoYPpKEeeMccJD5RrNqg" name="getNameTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_K5tR4PpLEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Ny2esPpKEeeMccJD5RrNqg" name="setNameTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_h8NkMPpLEeeMccJD5RrNqg" name="nameTest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_N8yd0PpKEeeMccJD5RrNqg" name="getQuestions">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_QhdkkPpLEeeMccJD5RrNqg" type="_wohooPpAEeeMccJD5RrNqg" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ri3XMPpLEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RjLgQPpLEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OD3WMPpKEeeMccJD5RrNqg" name="setQuestions">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rZ_GMPpLEeeMccJD5RrNqg" name="questions" type="_wohooPpAEeeMccJD5RrNqg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tDRYMPpLEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tDpLoPpLEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OPO4sPpKEeeMccJD5RrNqg" name="addQuestion">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7623gPpLEeeMccJD5RrNqg" name="login">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9bvbcPpLEeeMccJD5RrNqg" name="question" type="_wohooPpAEeeMccJD5RrNqg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AwX08PpMEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OVBXoPpKEeeMccJD5RrNqg" name="deleteQuestion">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fLkMEPpMEeeMccJD5RrNqg" name="login">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbiqoPpMEeeMccJD5RrNqg" name="question" type="_wohooPpAEeeMccJD5RrNqg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jswfUPpMEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ObDuMPpKEeeMccJD5RrNqg" name="calculateResult">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qzdcQPpMEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0Wu_wPpAEeeMccJD5RrNqg" name="SQLConnection">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vbp9IPpREeeMccJD5RrNqg" name="addTestDB"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_wEyZsPpREeeMccJD5RrNqg" name="searchTestDB"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_w2MogPpREeeMccJD5RrNqg" name="deleteTestDB"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xVyukPpREeeMccJD5RrNqg" name="addQuestionDB"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xp7ykPpREeeMccJD5RrNqg" name="deleteQuestionDB"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_03AbQPpAEeeMccJD5RrNqg" name="AddQuestionsTestServlet">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vg-3IvpTEeeMccJD5RrNqg" name="teacher" type="_1MwBwPpAEeeMccJD5RrNqg" association="_vg9pAPpTEeeMccJD5RrNqg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AGi7MvpUEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg" association="_AGiUIPpUEeeMccJD5RrNqg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kz1X8PpTEeeMccJD5RrNqg" name="doGet" visibility="protected">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YVbhEPpUEeeMccJD5RrNqg" name="HttpServerRequest"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lNkGkPpTEeeMccJD5RrNqg" name="saveTestClck">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_nJDGYPpUEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_l0cgYPpTEeeMccJD5RrNqg" name="addQuestClck"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1MwBwPpAEeeMccJD5RrNqg" name="Teacher">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-yVMMfpREeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg" association="_-yT-EPpREeeMccJD5RrNqg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BkJMgPpSEeeMccJD5RrNqg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BkWn4PpSEeeMccJD5RrNqg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_um30wvpSEeeMccJD5RrNqg" name="sqlconnection" type="_0Wu_wPpAEeeMccJD5RrNqg" association="_um2moPpSEeeMccJD5RrNqg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Cu7IIPpTEeeMccJD5RrNqg" name="login" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="__P1u8PpOEeeMccJD5RrNqg" name="addNewTeacherTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_wPgt4PpPEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_x64qkPpPEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_AJwZgPpPEeeMccJD5RrNqg" name="deleteTeacherTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Be384PpQEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DX_aoPpQEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Am9S4PpPEeeMccJD5RrNqg" name="getObjectTests">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_QpGEUPpQEeeMccJD5RrNqg" name="eduObjectName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_So6nAPpQEeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TxCssPpQEeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TxZSAPpQEeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BBboYPpPEeeMccJD5RrNqg" name="getTeacherTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vCS3YPpQEeeMccJD5RrNqg" name="eduObjectName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_z4HW0PpQEeeMccJD5RrNqg" name="nameTest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BNfucPpPEeeMccJD5RrNqg" name="getGroupEduObjs">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AuelQPpREeeMccJD5RrNqg" name="groupName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DZYsUPpREeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BVIngPpPEeeMccJD5RrNqg" name="groupList">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_K0bhkPpREeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_POJT0PpREeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_POc10PpREeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BcNf4PpPEeeMccJD5RrNqg" name="educationalObjectList">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YYim0PpREeeMccJD5RrNqg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z-aYcPpREeeMccJD5RrNqg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z-ssUPpREeeMccJD5RrNqg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Bid44PpPEeeMccJD5RrNqg" name="searchTeacherTest">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jcmxMPpREeeMccJD5RrNqg" name="eduObjectName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pryQQPpREeeMccJD5RrNqg" name="testName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LvfkAPpDEeeMccJD5RrNqg" name="Курсовая работа по проектирванию">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L10OcPpDEeeMccJD5RrNqg" name="ClientClasses">
+        <packagedElement xmi:type="uml:Class" xmi:id="_yiE1IPpJEeeMccJD5RrNqg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yjGv4PpJEeeMccJD5RrNqg" name="Question" visibility="public" isAbstract="true">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_82g5YPpJEeeMccJD5RrNqg" name="question" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82nAAPpJEeeMccJD5RrNqg" name="getQuestion" specification="_82kjwPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return question;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82qDUPpJEeeMccJD5RrNqg" name="setQuestion" specification="_82nnEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.question = question;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82kjwPpJEeeMccJD5RrNqg" name="getQuestion" visibility="public" method="_82nAAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82lx4PpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82nnEPpJEeeMccJD5RrNqg" name="setQuestion" visibility="public" method="_82qDUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82pcQPpJEeeMccJD5RrNqg" name="question" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82qqYPpJEeeMccJD5RrNqg" name="calculateMark" visibility="public" isAbstract="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82vi4PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8wg_EPpJEeeMccJD5RrNqg" name="Group" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8wlQgPpJEeeMccJD5RrNqg" name="nameGroup" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8wnswPpJEeeMccJD5RrNqg" name="students" visibility="private" type="_8wnFsPpJEeeMccJD5RrNqg" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8woT0PpJEeeMccJD5RrNqg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8wo64PpJEeeMccJD5RrNqg" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8w0hEPpJEeeMccJD5RrNqg" name="Group" specification="_8wqJAPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.nameGroup = nameGroup;&#xD;
+    students = searchStudents(nameGroup);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8w29UPpJEeeMccJD5RrNqg" name="getNameGroup" specification="_8w1vMPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return nameGroup;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8w6AoPpJEeeMccJD5RrNqg" name="getStudents" specification="_8w3kYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return students;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8w9rAPpJEeeMccJD5RrNqg" name="searchStudents" specification="_8w6nsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;Student> searchStudents = new ArrayList&lt;Student>();&#xD;
+    ArrayList&lt;String> loginStudents = getLoginStudents(nameGroup);&#xD;
+    for (String login : loginStudents) {&#xD;
+        searchStudents.add(new Student(login));&#xD;
+    }&#xD;
+    return searchStudents;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xDxoPpJEeeMccJD5RrNqg" name="getLoginStudents" specification="_8w-5IPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> searching = new ArrayList&lt;String>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM StudentGroup&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;GroupName&quot;).equals(nameGroup)) {&#xD;
+                searching.add(result.getString(&quot;Login&quot;));&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return searching;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8wqJAPpJEeeMccJD5RrNqg" name="Group" visibility="public" method="_8w0hEPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8wz6APpJEeeMccJD5RrNqg" name="nameGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8w1vMPpJEeeMccJD5RrNqg" name="getNameGroup" visibility="public" method="_8w29UPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w2WQPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8w3kYPpJEeeMccJD5RrNqg" name="getStudents" visibility="public" method="_8w6AoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w4LcPpJEeeMccJD5RrNqg" type="_8wnFsPpJEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8w4ygPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8w5ZkPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8w6nsPpJEeeMccJD5RrNqg" name="searchStudents" visibility="public" method="_8w9rAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w710PpJEeeMccJD5RrNqg" type="_8wnFsPpJEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8w710fpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8w710vpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w9D8PpJEeeMccJD5RrNqg" name="nameGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8w-5IPpJEeeMccJD5RrNqg" name="getLoginStudents" visibility="private" method="_8xDxoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8xAuUPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8xBVYPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8xBVYfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8xCjgPpJEeeMccJD5RrNqg" name="nameGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8wnFsPpJEeeMccJD5RrNqg" name="Student" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_83BPsPpJEeeMccJD5RrNqg" general="_8ykNgPpJEeeMccJD5RrNqg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_83E6EPpJEeeMccJD5RrNqg" name="groupName" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_83RuYPpJEeeMccJD5RrNqg" name="Student" specification="_83E6EfpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    setRoleUser(&quot;студент&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_83kCQPpJEeeMccJD5RrNqg" name="Student" specification="_83XN8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    searchUserForLogin(loginUser);&#xD;
+    groupName = getStudentGroupDB();&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_83tMMPpJEeeMccJD5RrNqg" name="getGroupName" specification="_83nFkPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return groupName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8329MPpJEeeMccJD5RrNqg" name="setGroupName" specification="_83xdoPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.groupName = groupName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_839q4PpJEeeMccJD5RrNqg" name="addResultTest" specification="_836AgPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;INSERT INTO StudentTestMarks (StudentLogin,ObjectName,TestName,Mark) &quot; + &quot;VALUES ('&quot; + getLoginUser() + &quot;', '&quot; + test.getNameEducationObject() + &quot;', '&quot; + test.getNameTest() + &quot;', &quot; + test.calculateResult() + &quot; );&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84IC8PpJEeeMccJD5RrNqg" name="getStudentGroupDB" specification="_84CjYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    String group = null;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM StudentGroup&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Login&quot;).equals(getLoginUser())) {&#xD;
+                group = result.getString(&quot;GroupName&quot;);&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return group;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84X6kPpJEeeMccJD5RrNqg" name="getMaxResultTest" specification="_84M7cPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    double resultTest = 0;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM StudentTestMarks&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;StudentLogin&quot;).equals(getLoginUser()) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(EduObject) &amp;&amp; result.getString(&quot;TestName&quot;).equals(testName) &amp;&amp; result.getDouble(&quot;Mark&quot;) > resultTest) {&#xD;
+                resultTest = result.getDouble(&quot;Mark&quot;);&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return resultTest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84hEgPpJEeeMccJD5RrNqg" name="getStudentTeacher" specification="_84a94PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> teacherLogins = getStudentTeacherLoginDB();&#xD;
+    ArrayList&lt;Teacher> teachers = new ArrayList&lt;Teacher>();&#xD;
+    if (teacherLogins.size() > 0) {&#xD;
+        for (String login : teacherLogins) {&#xD;
+            teachers.add(new Teacher(login));&#xD;
+        }&#xD;
+        return teachers;&#xD;
+    } else {&#xD;
+        return null;&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84q1gPpJEeeMccJD5RrNqg" name="getStudentTeacherLoginDB" specification="_84kH0PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> logins = new ArrayList&lt;String>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM TeacherGroups&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;GroupName&quot;).equals(groupName)) {&#xD;
+                logins.add(result.getString(&quot;Login&quot;));&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return logins;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_83E6EfpJEeeMccJD5RrNqg" name="Student" visibility="public" method="_83RuYPpJEeeMccJD5RrNqg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_83XN8PpJEeeMccJD5RrNqg" name="Student" visibility="public" method="_83kCQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_83iNEPpJEeeMccJD5RrNqg" name="loginUser" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_83nFkPpJEeeMccJD5RrNqg" name="getGroupName" visibility="public" method="_83tMMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_83rXAPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_83xdoPpJEeeMccJD5RrNqg" name="setGroupName" visibility="public" method="_8329MPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_830g8PpJEeeMccJD5RrNqg" name="groupName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_836AgPpJEeeMccJD5RrNqg" name="addResultTest" visibility="public" method="_839q4PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_837OoPpJEeeMccJD5RrNqg" name="test" type="_8z6RUPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_84CjYPpJEeeMccJD5RrNqg" name="getStudentGroupDB" visibility="private" method="_84IC8PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84E_oPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_84M7cPpJEeeMccJD5RrNqg" name="getMaxResultTest" visibility="public" method="_84X6kPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84OwoPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84Rz8PpJEeeMccJD5RrNqg" name="EduObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84VeUPpJEeeMccJD5RrNqg" name="testName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_84a94PpJEeeMccJD5RrNqg" name="getStudentTeacher" visibility="public" method="_84hEgPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84daIPpJEeeMccJD5RrNqg" type="_8zVCgPpJEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_84fPUPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_84gdcPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_84kH0PpJEeeMccJD5RrNqg" name="getStudentTeacherLoginDB" visibility="private" method="_84q1gPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_84mkEPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_84pAUPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_84pnYPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8xKfUPpJEeeMccJD5RrNqg" name="UnVaribleQuestion" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_8xLtcPpJEeeMccJD5RrNqg" general="_yjGv4PpJEeeMccJD5RrNqg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8xNioPpJEeeMccJD5RrNqg" name="rightAnswear" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8xWFgPpJEeeMccJD5RrNqg" name="userAnswear" visibility="public" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xYhwPpJEeeMccJD5RrNqg" name="getRightAnswear" specification="_8xWskPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return rightAnswear;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xcMIPpJEeeMccJD5RrNqg" name="setRightAnswear" specification="_8xaW8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.rightAnswear = rightAnswear;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xeBUPpJEeeMccJD5RrNqg" name="calculateMark" specification="_8xczMPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    if (userAnswear.equals(rightAnswear)) {&#xD;
+        return 1;&#xD;
+    } else {&#xD;
+        return 0;&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8xWskPpJEeeMccJD5RrNqg" name="getRightAnswear" visibility="public" method="_8xYhwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8xXToPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8xaW8PpJEeeMccJD5RrNqg" name="setRightAnswear" visibility="public" method="_8xcMIPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8xblEPpJEeeMccJD5RrNqg" name="rightAnswear" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8xczMPpJEeeMccJD5RrNqg" name="calculateMark" visibility="public" method="_8xeBUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8xdaQPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8xkH8PpJEeeMccJD5RrNqg" name="SortNameUserList" visibility="public">
+          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8yiYUPpJEeeMccJD5RrNqg" name="SortNameUserList implements Comparator" client="_8xkH8PpJEeeMccJD5RrNqg" supplier="_8xlWEPpJEeeMccJD5RrNqg" contract="_8xlWEPpJEeeMccJD5RrNqg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ymCsPpJEeeMccJD5RrNqg" name="compare" specification="_8ykNgfpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    String firstName1 = user1.getFirstName();&#xD;
+    String firstName2 = user2.getFirstName();&#xD;
+    return firstName1.compareTo(firstName2);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8ykNgfpJEeeMccJD5RrNqg" name="compare" visibility="public" method="_8ymCsPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8yk0kPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8yk0kfpJEeeMccJD5RrNqg" name="user1" type="_8ykNgPpJEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8ylboPpJEeeMccJD5RrNqg" name="user2" type="_8ykNgPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8ykNgPpJEeeMccJD5RrNqg" name="User" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85G6YPpJEeeMccJD5RrNqg" name="loginUser" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85OPIPpJEeeMccJD5RrNqg" name="roleUser" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85WyAPpJEeeMccJD5RrNqg" name="firstName" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85eGwPpJEeeMccJD5RrNqg" name="secondName" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85kNYPpJEeeMccJD5RrNqg" name="lastName" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_85ulcPpJEeeMccJD5RrNqg" name="getLoginUser" specification="_85ps8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return loginUser;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_850FAPpJEeeMccJD5RrNqg" name="setLoginUser" specification="_85vzkPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.loginUser = loginUser;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86ASQPpJEeeMccJD5RrNqg" name="getRoleUser" specification="_856LoPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return roleUser;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86L4cPpJEeeMccJD5RrNqg" name="setRoleUser" specification="_86HnAPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.roleUser = roleUser;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86XeoPpJEeeMccJD5RrNqg" name="getNames" specification="_86Qw8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return firstName + &quot; &quot; + secondName + &quot; &quot; + lastName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86k6APpJEeeMccJD5RrNqg" name="getFirstName" specification="_86cXIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return firstName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86urAPpJEeeMccJD5RrNqg" name="getSecondName" specification="_86nWQPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return secondName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_864cAPpJEeeMccJD5RrNqg" name="getLastName" specification="_86xuUPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return lastName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87HFgPpJEeeMccJD5RrNqg" name="setFirstName" specification="_86_wwPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.firstName = firstName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87TSwPpJEeeMccJD5RrNqg" name="setSecondName" specification="_87NzMPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.secondName = secondName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87dDwPpJEeeMccJD5RrNqg" name="setLastName" specification="_87YLQPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.lastName = lastName;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87vXoPpJEeeMccJD5RrNqg" name="getUserData" specification="_87guIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean getting = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM Users&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Login&quot;).equals(login) &amp;&amp; result.getString(&quot;Password&quot;).equals(password)) {&#xD;
+                loginUser = result.getString(&quot;Login&quot;);&#xD;
+                roleUser = result.getString(&quot;Role&quot;);&#xD;
+                firstName = result.getString(&quot;FirstName&quot;);&#xD;
+                secondName = result.getString(&quot;SecondName&quot;);&#xD;
+                lastName = result.getString(&quot;LastName&quot;);&#xD;
+                getting = true;&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return getting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87_PQPpJEeeMccJD5RrNqg" name="searchUserForLogin" specification="_871eQPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean searching = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM Users&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Login&quot;).equals(login)) {&#xD;
+                loginUser = result.getString(&quot;Login&quot;);&#xD;
+                roleUser = result.getString(&quot;Role&quot;);&#xD;
+                firstName = result.getString(&quot;FirstName&quot;);&#xD;
+                ;&#xD;
+                secondName = result.getString(&quot;SecondName&quot;);&#xD;
+                lastName = result.getString(&quot;LastName&quot;);&#xD;
+                searching = true;&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return searching;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_88XpwPpJEeeMccJD5RrNqg" name="searchUserForName" specification="_88HLEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean searching = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM Users&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Role&quot;).equals(role) &amp;&amp; result.getString(&quot;FirstName&quot;).equals(firstName) &amp;&amp; result.getString(&quot;SecondName&quot;).equals(secondName) &amp;&amp; result.getString(&quot;LastName&quot;).equals(lastName)) {&#xD;
+                loginUser = result.getString(&quot;Login&quot;);&#xD;
+                roleUser = result.getString(&quot;Role&quot;);&#xD;
+                this.firstName = result.getString(&quot;FirstName&quot;);&#xD;
+                ;&#xD;
+                this.secondName = result.getString(&quot;SecondName&quot;);&#xD;
+                this.lastName = result.getString(&quot;LastName&quot;);&#xD;
+                searching = true;&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return searching;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_88oIcPpJEeeMccJD5RrNqg" name="userList" specification="_88dwYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;User> userList = new ArrayList&lt;User>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM Users&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Role&quot;).equals(userRole)) {&#xD;
+                User getUser = new User();&#xD;
+                getUser.setLoginUser(result.getString(&quot;Login&quot;));&#xD;
+                getUser.setRoleUser(result.getString(&quot;Role&quot;));&#xD;
+                getUser.setFirstName(result.getString(&quot;FirstName&quot;));&#xD;
+                getUser.setSecondName(result.getString(&quot;SecondName&quot;));&#xD;
+                getUser.setLastName(result.getString(&quot;LastName&quot;));&#xD;
+                userList.add(getUser);&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return userList;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_85ps8PpJEeeMccJD5RrNqg" name="getLoginUser" visibility="public" method="_85ulcPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_85tXUPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_85vzkPpJEeeMccJD5RrNqg" name="setLoginUser" visibility="public" method="_850FAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_85xowPpJEeeMccJD5RrNqg" name="loginUser" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_856LoPpJEeeMccJD5RrNqg" name="getRoleUser" visibility="public" method="_86ASQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8592APpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86HnAPpJEeeMccJD5RrNqg" name="setRoleUser" visibility="public" method="_86L4cPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_86LRYPpJEeeMccJD5RrNqg" name="roleUser" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86Qw8PpJEeeMccJD5RrNqg" name="getNames" visibility="public" method="_86XeoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_86T0QPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86cXIPpJEeeMccJD5RrNqg" name="getFirstName" visibility="public" method="_86k6APpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_86gokPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86nWQPpJEeeMccJD5RrNqg" name="getSecondName" visibility="public" method="_86urAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_86rnsPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86xuUPpJEeeMccJD5RrNqg" name="getLastName" visibility="public" method="_864cAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_860xoPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_86_wwPpJEeeMccJD5RrNqg" name="setFirstName" visibility="public" method="_87HFgPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87ECMPpJEeeMccJD5RrNqg" name="firstName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_87NzMPpJEeeMccJD5RrNqg" name="setSecondName" visibility="public" method="_87TSwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87Q2gPpJEeeMccJD5RrNqg" name="secondName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_87YLQPpJEeeMccJD5RrNqg" name="setLastName" visibility="public" method="_87dDwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87angPpJEeeMccJD5RrNqg" name="lastName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_87guIPpJEeeMccJD5RrNqg" name="getUserData" visibility="public" method="_87vXoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87ijUPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87m0wPpJEeeMccJD5RrNqg" name="login" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_87rtQPpJEeeMccJD5RrNqg" name="password" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_871eQPpJEeeMccJD5RrNqg" name="searchUserForLogin" visibility="public" method="_87_PQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8736gPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_878L8PpJEeeMccJD5RrNqg" name="login" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_88HLEPpJEeeMccJD5RrNqg" name="searchUserForName" visibility="public" method="_88XpwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88KOYPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88MqoPpJEeeMccJD5RrNqg" name="role" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88Pt8PpJEeeMccJD5RrNqg" name="firstName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88SxQPpJEeeMccJD5RrNqg" name="secondName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88V0kPpJEeeMccJD5RrNqg" name="lastName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_88dwYPpJEeeMccJD5RrNqg" name="userList" visibility="public" isStatic="true" method="_88oIcPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88gMoPpJEeeMccJD5RrNqg" type="_8ykNgPpJEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_88iB0PpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_88jP8PpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_88mTQPpJEeeMccJD5RrNqg" name="userRole" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8zVCgPpJEeeMccJD5RrNqg" name="Teacher" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_8zVpkPpJEeeMccJD5RrNqg" general="_8ykNgPpJEeeMccJD5RrNqg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zgBoPpJEeeMccJD5RrNqg" name="Teacher" specification="_8zXewPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    setRoleUser(&quot;преподаватель&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zrAwPpJEeeMccJD5RrNqg" name="Teacher" specification="_8zhPwPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    searchUserForLogin(loginUser);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zwgUPpJEeeMccJD5RrNqg" name="addGroup" specification="_8zsO4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return addTeacherElement(addGroup, &quot;TeacherGroups&quot;, &quot;GroupName&quot;) &amp;&amp; connectGroupToEduObj(addGroup, connectEduObj);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zzjoPpJEeeMccJD5RrNqg" name="addEducationObgect" specification="_8zxHYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return addTeacherElement(addEduObg, &quot;TeacherObjects&quot;, &quot;ObjectName&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8z5qQPpJEeeMccJD5RrNqg" name="addTeacherElement" specification="_8z0KsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean adding = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        if (!searchTeacherElement(addElem, tableName, addName)) {&#xD;
+            String sqlite = &quot;INSERT INTO &quot; + tableName + &quot; (Login,&quot; + addName + &quot;) &quot; + &quot;VALUES ('&quot; + getLoginUser() + &quot;', '&quot; + addElem + &quot;' );&quot;;&#xD;
+            statement.executeUpdate(sqlite);&#xD;
+            adding = true;&#xD;
+        }&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return adding;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8z9UoPpJEeeMccJD5RrNqg" name="addNewTeacherTest" specification="_8z64YPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean adding = addTestToTestNamesDB(newTest);&#xD;
+    if (adding) {&#xD;
+        for (Question question : newTest.getQuestions()) {&#xD;
+            newTest.addQuestion(getLoginUser(), question);&#xD;
+        }&#xD;
+    }&#xD;
+    return adding;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80A_APpJEeeMccJD5RrNqg" name="addTestToTestNamesDB" specification="_8z97sPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean adding = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        if (!searchTeacherTest(newTest.getNameEducationObject(), newTest.getNameTest())) {&#xD;
+            String sqlite = &quot;INSERT INTO TestNames (TeacherLogin, ObjectName, TestName) &quot; + &quot;VALUES ('&quot; + getLoginUser() + &quot;', '&quot; + newTest.getNameEducationObject() + &quot;', '&quot; + newTest.getNameTest() + &quot;' );&quot;;&#xD;
+            statement.executeUpdate(sqlite);&#xD;
+            adding = true;&#xD;
+        }&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return adding;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80F3gPpJEeeMccJD5RrNqg" name="connectGroupToEduObj" specification="_80BmEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean connect = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;INSERT INTO GroupEduObjs (GroupName,TeacherLogin,ObjectName) &quot; + &quot;VALUES ('&quot; + group + &quot;', '&quot; + getLoginUser() + &quot;', '&quot; + connectEduObj + &quot;' );&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        connect = true;&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return connect;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80NzUPpJEeeMccJD5RrNqg" name="deleteConnectGroup" specification="_80HFoPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean deleting = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;DELETE FROM GroupEduObjs WHERE &quot; + &quot;GroupName = '&quot; + delGroup + &quot;' AND &quot; + &quot;TeacherLogin = '&quot; + getLoginUser() + &quot;';&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+        deleting = true;&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return deleting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80ZZgPpJEeeMccJD5RrNqg" name="deleteGroup" specification="_80PBcPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return deleteTeacherElement(delGroup, &quot;TeacherGroups&quot;, &quot;GroupName&quot;) &amp;&amp; deleteConnectGroup(delGroup);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80e5EPpJEeeMccJD5RrNqg" name="deleteEducationObgect" specification="_80anoPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return deleteTeacherElement(delEduObg, &quot;TeacherObjects&quot;, &quot;ObjectName&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80qfQPpJEeeMccJD5RrNqg" name="deleteTeacherElement" specification="_80gHMPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean deleting = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;DELETE FROM &quot; + tableName + &quot; WHERE &quot; + &quot;Login = '&quot; + getLoginUser() + &quot;' AND &quot; + delName + &quot; = '&quot; + delElem + &quot;';&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+        deleting = true;&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return deleting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80v-0PpJEeeMccJD5RrNqg" name="deleteTeacherTest" specification="_80rGUPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean deleting = deleteTestToTestNamesDB(delTest);&#xD;
+    if (deleting) {&#xD;
+        for (Question question : delTest.getQuestions()) {&#xD;
+            delTest.deleteQuestion(getLoginUser(), question);&#xD;
+        }&#xD;
+    }&#xD;
+    return deleting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_802sgPpJEeeMccJD5RrNqg" name="deleteTestToTestNamesDB" specification="_80wl4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean deleting = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;DELETE FROM TestNames WHERE TeacherLogin = '&quot; + getLoginUser() + &quot;' AND &quot; + &quot;ObjectName = '&quot; + delTest.getNameEducationObject() + &quot;' AND &quot; + &quot;TestName = '&quot; + delTest.getNameTest() + &quot;';&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+        deleting = true;&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return deleting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80-BQPpJEeeMccJD5RrNqg" name="getGroupEduObjects" specification="_8036oPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> educationObjects = new ArrayList&lt;String>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM GroupEduObjs&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;GroupName&quot;).equals(group) &amp;&amp; result.getString(&quot;TeacherLogin&quot;).equals(getLoginUser())) {&#xD;
+                educationObjects.add(result.getString(&quot;ObjectName&quot;));&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return educationObjects;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81C5wPpJEeeMccJD5RrNqg" name="getObjectTests" specification="_80_PYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> tests = new ArrayList&lt;String>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM TestNames&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;TeacherLogin&quot;).equals(getLoginUser()) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(eduObject)) {&#xD;
+                tests.add(result.getString(&quot;TestName&quot;));&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return tests;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81IZUPpJEeeMccJD5RrNqg" name="getTeacherTest" specification="_81EH4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    Test teacherTest = null;&#xD;
+    if (searchTeacherTest(nameEducationObject, nameTest)) {&#xD;
+        teacherTest = new Test(getLoginUser(), nameEducationObject, nameTest);&#xD;
+    }&#xD;
+    return teacherTest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81K1kfpJEeeMccJD5RrNqg" name="groupList" specification="_81JAYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return teacherElementList(&quot;TeacherGroups&quot;, &quot;GroupName&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81N44PpJEeeMccJD5RrNqg" name="getGroup" specification="_81MDsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return new Group(nameGroup);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81Q8MPpJEeeMccJD5RrNqg" name="educationObgectList" specification="_81Of8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return teacherElementList(&quot;TeacherObjects&quot;, &quot;ObjectName&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81XC0PpJEeeMccJD5RrNqg" name="searchTeacherElement" specification="_81SKUPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean searching = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM &quot; + tableName);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Login&quot;).equals(getLoginUser()) &amp;&amp; result.getString(srhName).equals(srhElem)) {&#xD;
+                searching = true;&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return searching;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81flsPpJEeeMccJD5RrNqg" name="searchTeacherTest" specification="_81aGIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean searching = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM TestNames&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;TeacherLogin&quot;).equals(getLoginUser()) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(nameEducationObject) &amp;&amp; result.getString(&quot;TestName&quot;).equals(nameTest)) {&#xD;
+                searching = true;&#xD;
+                break;&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.out.println(e.getMessage());&#xD;
+    }&#xD;
+    return searching;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81lsUPpJEeeMccJD5RrNqg" name="teacherElementList" specification="_81gz0PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;String> element = new ArrayList&lt;String>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM &quot; + tableName);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;Login&quot;).equals(getLoginUser())) {&#xD;
+                element.add(result.getString(searchElem));&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return element;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8zXewPpJEeeMccJD5RrNqg" name="Teacher" visibility="public" method="_8zgBoPpJEeeMccJD5RrNqg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8zhPwPpJEeeMccJD5RrNqg" name="Teacher" visibility="public" method="_8zrAwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zqZsPpJEeeMccJD5RrNqg" name="loginUser" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8zsO4PpJEeeMccJD5RrNqg" name="addGroup" visibility="public" method="_8zwgUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zs18PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zuEEPpJEeeMccJD5RrNqg" name="addGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zv5QPpJEeeMccJD5RrNqg" name="connectEduObj" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8zxHYPpJEeeMccJD5RrNqg" name="addEducationObgect" visibility="public" method="_8zzjoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zxucPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8zy8kPpJEeeMccJD5RrNqg" name="addEduObg" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8z0KsPpJEeeMccJD5RrNqg" name="addTeacherElement" visibility="private" method="_8z5qQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z0xwPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z1_4PpJEeeMccJD5RrNqg" name="addElem" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z3OAPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z4cIPpJEeeMccJD5RrNqg" name="addName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8z64YPpJEeeMccJD5RrNqg" name="addNewTeacherTest" visibility="public" method="_8z9UoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z7fcPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z8tkPpJEeeMccJD5RrNqg" name="newTest" type="_8z6RUPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8z97sPpJEeeMccJD5RrNqg" name="addTestToTestNamesDB" visibility="private" method="_80A_APpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z-iwPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8z_w4PpJEeeMccJD5RrNqg" name="newTest" type="_8z6RUPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80BmEPpJEeeMccJD5RrNqg" name="connectGroupToEduObj" visibility="public" method="_80F3gPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80CNIPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80DbQPpJEeeMccJD5RrNqg" name="group" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80EpYPpJEeeMccJD5RrNqg" name="connectEduObj" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80HFoPpJEeeMccJD5RrNqg" name="deleteConnectGroup" visibility="private" method="_80NzUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80I60PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80L-IPpJEeeMccJD5RrNqg" name="delGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80PBcPpJEeeMccJD5RrNqg" name="deleteGroup" visibility="public" method="_80ZZgPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80XkUPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80YycPpJEeeMccJD5RrNqg" name="delGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80anoPpJEeeMccJD5RrNqg" name="deleteEducationObgect" visibility="public" method="_80e5EPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80bOsPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80eSAPpJEeeMccJD5RrNqg" name="delEduObg" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80gHMPpJEeeMccJD5RrNqg" name="deleteTeacherElement" visibility="private" method="_80qfQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80hVUPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80ijcPpJEeeMccJD5RrNqg" name="delElem" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80kYoPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80m04PpJEeeMccJD5RrNqg" name="delName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80rGUPpJEeeMccJD5RrNqg" name="deleteTeacherTest" visibility="public" method="_80v-0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80sUcPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80vXwPpJEeeMccJD5RrNqg" name="delTest" type="_8z6RUPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80wl4PpJEeeMccJD5RrNqg" name="deleteTestToTestNamesDB" visibility="private" method="_802sgPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_80xM8PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8003UPpJEeeMccJD5RrNqg" name="delTest" type="_8z6RUPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8036oPpJEeeMccJD5RrNqg" name="getGroupEduObjects" visibility="public" method="_80-BQPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_805v0PpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_806W4PpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_806W4fpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_807lAPpJEeeMccJD5RrNqg" name="group" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_80_PYPpJEeeMccJD5RrNqg" name="getObjectTests" visibility="public" method="_81C5wPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81AdgPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81BEkPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_81BEkfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81CSsPpJEeeMccJD5RrNqg" name="eduObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81EH4PpJEeeMccJD5RrNqg" name="getTeacherTest" visibility="public" method="_81IZUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81Eu8PpJEeeMccJD5RrNqg" type="_8z6RUPpJEeeMccJD5RrNqg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81F9EPpJEeeMccJD5RrNqg" name="nameEducationObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81HyQPpJEeeMccJD5RrNqg" name="nameTest" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81JAYPpJEeeMccJD5RrNqg" name="groupList" visibility="public" method="_81K1kfpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81KOgPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81KOgfpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_81K1kPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81MDsPpJEeeMccJD5RrNqg" name="getGroup" visibility="public" method="_81N44PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81MqwPpJEeeMccJD5RrNqg" type="_8wg_EPpJEeeMccJD5RrNqg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81NR0PpJEeeMccJD5RrNqg" name="nameGroup" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81Of8PpJEeeMccJD5RrNqg" name="educationObgectList" visibility="public" method="_81Q8MPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81PuEPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81QVIPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_81QVIfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81SKUPpJEeeMccJD5RrNqg" name="searchTeacherElement" visibility="private" method="_81XC0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81SKUfpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81TYcPpJEeeMccJD5RrNqg" name="srhElem" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81UmkPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81V0sPpJEeeMccJD5RrNqg" name="srhName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81aGIPpJEeeMccJD5RrNqg" name="searchTeacherTest" visibility="private" method="_81flsPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81bUQPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81dJcPpJEeeMccJD5RrNqg" name="nameEducationObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81eXkPpJEeeMccJD5RrNqg" name="nameTest" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_81gz0PpJEeeMccJD5RrNqg" name="teacherElementList" visibility="private" method="_81lsUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81iB8PpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81iB8fpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_81ipAPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81jQEPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_81keMPpJEeeMccJD5RrNqg" name="searchElem" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8z6RUPpJEeeMccJD5RrNqg" name="Test" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_89MJIPpJEeeMccJD5RrNqg" name="nameEducationObject" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_89S20PpJEeeMccJD5RrNqg" name="nameTest" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_89XvUPpJEeeMccJD5RrNqg" name="questions" visibility="private" type="_yiE1IPpJEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_89pcIPpJEeeMccJD5RrNqg" name="Test" specification="_89dO4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    questions = new ArrayList&lt;Question>();&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-DEwPpJEeeMccJD5RrNqg" name="Test" specification="_89ww4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.nameEducationObject = nameEducationObject;&#xD;
+    this.nameTest = nameTest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-kpMPpJEeeMccJD5RrNqg" name="Test" specification="_8-JycPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.nameEducationObject = nameEducationObject;&#xD;
+    this.nameTest = nameTest;&#xD;
+    getQuestionsDB(teacherLogin);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-o6oPpJEeeMccJD5RrNqg" name="getNameEducationObject" specification="_8-nFcPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return nameEducationObject;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-w2cPpJEeeMccJD5RrNqg" name="setNameEducationObject" specification="_8-qIwPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.nameEducationObject = nameEducationObject;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-9qwPpJEeeMccJD5RrNqg" name="getNameTest" specification="_8-29EPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return nameTest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_NiYPpJEeeMccJD5RrNqg" name="setNameTest" specification="_8_E_gPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.nameTest = nameTest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_P-oPpJEeeMccJD5RrNqg" name="getQuestions" specification="_8_OwgPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return questions;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_cy8PpJEeeMccJD5RrNqg" name="setQuestions" specification="_8_WFQPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.questions = questions;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_vG0PpJEeeMccJD5RrNqg" name="addQuestion" specification="_8_i5kPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    String sqlite = &quot;&quot;;&#xD;
+    if (addQuestion instanceof UnVaribleQuestion) {&#xD;
+        sqlite = &quot;INSERT INTO UnVarQuest (TeacherLogin, ObjectName, &quot; + &quot;TestName, Question, Answear) &quot; + &quot;VALUES ('&quot; + teacherLogin + &quot;', '&quot; + nameEducationObject + &quot;', '&quot; + nameTest + &quot;', &quot; + &quot;, '&quot; + addQuestion.getQuestion() + &quot;', '&quot; + ((UnVaribleQuestion) addQuestion).getRightAnswear() + &quot;' );&quot;;&#xD;
+    } else if (addQuestion instanceof OneVaribleQuestion) {&#xD;
+        sqlite = &quot;INSERT INTO OneVarQuest (TeacherLogin, ObjectName, &quot; + &quot;TestName, Question, Answear1, Answear2, Answear3, RightAnswear) &quot; + &quot;VALUES ('&quot; + teacherLogin + &quot;', '&quot; + nameEducationObject + &quot;', '&quot; + nameTest + &quot;', &quot; + &quot;, '&quot; + addQuestion.getQuestion() + &quot;', '&quot; + ((OneVaribleQuestion) addQuestion).getVaribleAnswears().get(0) + &quot;', '&quot; + ((OneVaribleQuestion) addQuestion).getVaribleAnswears().get(1) + &quot;', '&quot; + ((OneVaribleQuestion) addQuestion).getVaribleAnswears().get(2) + &quot;', '&quot; + ((OneVaribleQuestion) addQuestion).getRightAnswear() + &quot;' );&quot;;&#xD;
+    } else if (addQuestion instanceof SomeVaribleQuestion) {&#xD;
+        sqlite = &quot;INSERT INTO SomeVarQuest (TeacherLogin, ObjectName, TestName, Question, &quot; + &quot;Answear1, Answear2, Answear3, Answear4, RightAns1, RightAns2) &quot; + &quot;VALUES ('&quot; + teacherLogin + &quot;', '&quot; + nameEducationObject + &quot;', '&quot; + nameTest + &quot;', &quot; + &quot;, '&quot; + addQuestion.getQuestion() + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getVaribleAnswears().get(0) + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getVaribleAnswears().get(1) + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getVaribleAnswears().get(2) + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getVaribleAnswears().get(3) + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getRightAnswears().get(0) + &quot;', '&quot; + ((SomeVaribleQuestion) addQuestion).getRightAnswears().get(1) + &quot;' );&quot;;&#xD;
+    }&#xD;
+    return addQuestionDB(teacherLogin, sqlite);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9ACo0PpJEeeMccJD5RrNqg" name="addQuestionDB" specification="_8_10gPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean adding = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        adding = true;&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return adding;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9ALLsPpJEeeMccJD5RrNqg" name="calculateResult" specification="_9AFsIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    double result = 0;&#xD;
+    for (Question question : questions) {&#xD;
+        if (question instanceof UnVaribleQuestion) {&#xD;
+            result += ((UnVaribleQuestion) question).calculateMark();&#xD;
+        } else if (question instanceof OneVaribleQuestion) {&#xD;
+            result += ((OneVaribleQuestion) question).calculateMark();&#xD;
+        } else {&#xD;
+            result += ((SomeVaribleQuestion) question).calculateMark();&#xD;
+        }&#xD;
+    }&#xD;
+    return result;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9Ac4gPpJEeeMccJD5RrNqg" name="deleteQuestion" specification="_9AR5YPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    String tableName = &quot;&quot;;&#xD;
+    if (deleteQuestion instanceof UnVaribleQuestion) {&#xD;
+        tableName = &quot;UnVarQuest&quot;;&#xD;
+    } else if (deleteQuestion instanceof OneVaribleQuestion) {&#xD;
+        tableName = &quot;OneVarQuest&quot;;&#xD;
+    } else if (deleteQuestion instanceof SomeVaribleQuestion) {&#xD;
+        tableName = &quot;SomeVarQuest&quot;;&#xD;
+    }&#xD;
+    return deleteQuestionDB(teacherLogin, tableName, deleteQuestion.getQuestion());&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9AtXMPpJEeeMccJD5RrNqg" name="deleteQuestionDB" specification="_9AhJ8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    boolean deleting = false;&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;DELETE FROM &quot; + tableName + &quot; WHERE TeacherLogin = '&quot; + teacherLogin + &quot;' AND &quot; + &quot;ObjectName = '&quot; + nameEducationObject + &quot;' AND TestName = '&quot; + nameTest + &quot;' AND &quot; + &quot;Question = &quot; + questName + &quot;;&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+        deleting = true;&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return deleting;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9A3IMPpJEeeMccJD5RrNqg" name="getQuestionsDB" specification="_9AyPsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    questions = new ArrayList&lt;Question>();&#xD;
+    questions.addAll(getOneVaribleQuestions(teacherLogin));&#xD;
+    questions.addAll(getSomeVaribleQuestions(teacherLogin));&#xD;
+    questions.addAll(getUnVaribleQuestions(teacherLogin));&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9BDVcPpJEeeMccJD5RrNqg" name="getUnVaribleQuestions" specification="_9A7ZoPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;UnVaribleQuestion> unVarQuest = new ArrayList&lt;UnVaribleQuestion>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM UnVarQuest&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;TeacherLogin&quot;).equals(teacherLogin) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(nameEducationObject) &amp;&amp; result.getString(&quot;TestName&quot;).equals(nameTest)) {&#xD;
+                UnVaribleQuestion question = new UnVaribleQuestion();&#xD;
+                question.setQuestion(result.getString(&quot;Question&quot;));&#xD;
+                question.setRightAnswear(result.getString(&quot;Answear&quot;));&#xD;
+                unVarQuest.add(question);&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return unVarQuest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9Bah0PpJEeeMccJD5RrNqg" name="getOneVaribleQuestions" specification="_9BRX4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;OneVaribleQuestion> oneVarQuest = new ArrayList&lt;OneVaribleQuestion>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM OneVarQuest&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;TeacherLogin&quot;).equals(teacherLogin) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(nameEducationObject) &amp;&amp; result.getString(&quot;TestName&quot;).equals(nameTest)) {&#xD;
+                OneVaribleQuestion question = new OneVaribleQuestion();&#xD;
+                question.setQuestion(result.getString(&quot;Question&quot;));&#xD;
+                ArrayList&lt;String> answearList = new ArrayList&lt;String>();&#xD;
+                answearList.add(result.getString(&quot;Answear1&quot;));&#xD;
+                answearList.add(result.getString(&quot;Answear2&quot;));&#xD;
+                answearList.add(result.getString(&quot;Answear3&quot;));&#xD;
+                question.setVaribleAnswears(answearList);&#xD;
+                question.setRightAnswear(result.getString(&quot;RightAnswear&quot;));&#xD;
+                oneVarQuest.add(question);&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return oneVarQuest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9Buq4PpJEeeMccJD5RrNqg" name="getSomeVaribleQuestions" specification="_9BhPgPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    ArrayList&lt;SomeVaribleQuestion> someVarQuest = new ArrayList&lt;SomeVaribleQuestion>();&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Tests.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        ResultSet result = statement.executeQuery(&quot;SELECT * FROM SomeVarQuest&quot;);&#xD;
+        while (result.next()) {&#xD;
+            if (result.getString(&quot;TeacherLogin&quot;).equals(teacherLogin) &amp;&amp; result.getString(&quot;ObjectName&quot;).equals(nameEducationObject) &amp;&amp; result.getString(&quot;TestName&quot;).equals(nameTest)) {&#xD;
+                SomeVaribleQuestion question = new SomeVaribleQuestion();&#xD;
+                question.setQuestion(result.getString(&quot;Question&quot;));&#xD;
+                ArrayList&lt;String> answearList = new ArrayList&lt;String>();&#xD;
+                answearList.add(result.getString(&quot;Answear1&quot;));&#xD;
+                answearList.add(result.getString(&quot;Answear2&quot;));&#xD;
+                answearList.add(result.getString(&quot;Answear3&quot;));&#xD;
+                answearList.add(result.getString(&quot;Answear4&quot;));&#xD;
+                question.setVaribleAnswears(answearList);&#xD;
+                ArrayList&lt;String> rightAnswearList = new ArrayList&lt;String>();&#xD;
+                rightAnswearList.add(result.getString(&quot;RightAns1&quot;));&#xD;
+                rightAnswearList.add(result.getString(&quot;RightAns2&quot;));&#xD;
+                question.setRightAnswears(rightAnswearList);&#xD;
+                someVarQuest.add(question);&#xD;
+            }&#xD;
+        }&#xD;
+        result.close();&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+    return someVarQuest;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_89dO4PpJEeeMccJD5RrNqg" name="Test" visibility="public" method="_89pcIPpJEeeMccJD5RrNqg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_89ww4PpJEeeMccJD5RrNqg" name="Test" visibility="public" method="_8-DEwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_898-IPpJEeeMccJD5RrNqg" name="nameEducationObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-AogPpJEeeMccJD5RrNqg" name="nameTest" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8-JycPpJEeeMccJD5RrNqg" name="Test" visibility="public" method="_8-kpMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-XN0PpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-bfQPpJEeeMccJD5RrNqg" name="nameEducationObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-g-0PpJEeeMccJD5RrNqg" name="nameTest" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8-nFcPpJEeeMccJD5RrNqg" name="getNameEducationObject" visibility="public" method="_8-o6oPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-nsgPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8-qIwPpJEeeMccJD5RrNqg" name="setNameEducationObject" visibility="public" method="_8-w2cPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-tzIPpJEeeMccJD5RrNqg" name="nameEducationObject" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8-29EPpJEeeMccJD5RrNqg" name="getNameTest" visibility="public" method="_8-9qwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8-7OgPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8_E_gPpJEeeMccJD5RrNqg" name="setNameTest" visibility="public" method="_8_NiYPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_KfEPpJEeeMccJD5RrNqg" name="nameTest" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8_OwgPpJEeeMccJD5RrNqg" name="getQuestions" visibility="public" method="_8_P-oPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_PXkPpJEeeMccJD5RrNqg" type="_yiE1IPpJEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8_WFQPpJEeeMccJD5RrNqg" name="setQuestions" visibility="public" method="_8_cy8PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_ZvoPpJEeeMccJD5RrNqg" name="questions" type="_yiE1IPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8_i5kPpJEeeMccJD5RrNqg" name="addQuestion" visibility="public" method="_8_vG0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_l84PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_pnQPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_sqkPpJEeeMccJD5RrNqg" name="addQuestion" type="_yjGv4PpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8_10gPpJEeeMccJD5RrNqg" name="addQuestionDB" visibility="private" method="_9ACo0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_4QwPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_8_8iMPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AAMkPpJEeeMccJD5RrNqg" name="sqlite" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9AFsIPpJEeeMccJD5RrNqg" name="calculateResult" visibility="public" method="_9ALLsPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AIIYPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9AR5YPpJEeeMccJD5RrNqg" name="deleteQuestion" visibility="public" method="_9Ac4gPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AU8sPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AYAAPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AbDUPpJEeeMccJD5RrNqg" name="deleteQuestion" type="_yjGv4PpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9AhJ8PpJEeeMccJD5RrNqg" name="deleteQuestionDB" visibility="private" method="_9AtXMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Ai_IPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AmCcPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9AoesPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Aq68PpJEeeMccJD5RrNqg" name="questName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9AyPsPpJEeeMccJD5RrNqg" name="getQuestionsDB" visibility="private" method="_9A3IMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9A0r8PpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9A7ZoPpJEeeMccJD5RrNqg" name="getUnVaribleQuestions" visibility="public" method="_9BDVcPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9A914PpJEeeMccJD5RrNqg" type="_yiE1IPpJEeeMccJD5RrNqg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9BA5MPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9BRX4PpJEeeMccJD5RrNqg" name="getOneVaribleQuestions" visibility="public" method="_9Bah0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9BUbMPpJEeeMccJD5RrNqg" type="_yiE1IPpJEeeMccJD5RrNqg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9BXegPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9BhPgPpJEeeMccJD5RrNqg" name="getSomeVaribleQuestions" visibility="public" method="_9Buq4PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Blg8PpJEeeMccJD5RrNqg" type="_yiE1IPpJEeeMccJD5RrNqg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9BrAgPpJEeeMccJD5RrNqg" name="teacherLogin" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_81084PpJEeeMccJD5RrNqg" name="Ds" visibility="public">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_814AMPpJEeeMccJD5RrNqg" name="main" specification="_811j8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    // TODO Auto-generated method stub&#xD;
+    /*Teacher t = new Teacher(&quot;34576&quot;);
+		Group g = t.getGroup(&quot;ПО-51б&quot;);
+		System.out.println(g.getNameGroup());
+		ArrayList&lt;Student> l =  g.getStudents();
+		Collections.sort(l, new SortNameUserList());
+		for (int index = 0; index &lt; g.getStudents().size(); index++) {
+			System.out.println(g.getStudents().get(index).getNames());
+		}
+		int e = 5;
+		String s = &quot;ff&quot; + e;
+		System.out.println(s);*/&#xD;
+    /*Test t = new Test(&quot;34576&quot;, &quot;Алгебра и геометрия&quot;, &quot;Матрицы и основные операции над ними&quot;);
+		for (Question q : t.getQuestions()) {
+			System.out.println(q.getQuestion());
+		}*/&#xD;
+    ArrayList&lt;User> s = User.userList(&quot;студент&quot;);&#xD;
+    for (User q : s) {&#xD;
+        System.out.println(q.getNames());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_811j8PpJEeeMccJD5RrNqg" name="main" visibility="public" isStatic="true" method="_814AMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_812yEPpJEeeMccJD5RrNqg" name="args" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_813ZIPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_813ZIfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_82C_UPpJEeeMccJD5RrNqg" name="OneVaribleQuestion" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_82FbkPpJEeeMccJD5RrNqg" general="_yjGv4PpJEeeMccJD5RrNqg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_82GpsPpJEeeMccJD5RrNqg" name="varibleAnswears" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_82HQwPpJEeeMccJD5RrNqg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_82HQwfpJEeeMccJD5RrNqg" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_82Ie4PpJEeeMccJD5RrNqg" name="rightAnswear" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_82JtAPpJEeeMccJD5RrNqg" name="userAnswear" visibility="public" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82MwUPpJEeeMccJD5RrNqg" name="getVaribleAnswears" specification="_82KUEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return varibleAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82RBwPpJEeeMccJD5RrNqg" name="setVaribleAnswears" specification="_82N-cPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.varibleAnswears = varibleAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82TeAfpJEeeMccJD5RrNqg" name="getRightAnswear" specification="_82SP4PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return rightAnswear;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82WhUPpJEeeMccJD5RrNqg" name="setRightAnswear" specification="_82UsIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.rightAnswear = rightAnswear;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82YWgfpJEeeMccJD5RrNqg" name="calculateMark" specification="_82XIYPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    if (userAnswear.equals(rightAnswear)) {&#xD;
+        return 1;&#xD;
+    } else {&#xD;
+        return 0;&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82KUEPpJEeeMccJD5RrNqg" name="getVaribleAnswears" visibility="public" method="_82MwUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82LiMPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_82MJQPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_82MJQfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82N-cPpJEeeMccJD5RrNqg" name="setVaribleAnswears" visibility="public" method="_82RBwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82PzoPpJEeeMccJD5RrNqg" name="varibleAnswears" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_82QasPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_82QasfpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82SP4PpJEeeMccJD5RrNqg" name="getRightAnswear" visibility="public" method="_82TeAfpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82TeAPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82UsIPpJEeeMccJD5RrNqg" name="setRightAnswear" visibility="public" method="_82WhUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82V6QPpJEeeMccJD5RrNqg" name="rightAnswear" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_82XIYPpJEeeMccJD5RrNqg" name="calculateMark" visibility="public" method="_82YWgfpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_82YWgPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9CCM4PpJEeeMccJD5RrNqg" name="Administrator" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_9CDbAPpJEeeMccJD5RrNqg" general="_8ykNgPpJEeeMccJD5RrNqg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9CVH0PpJEeeMccJD5RrNqg" name="Administrator" specification="_9CFQMPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    searchUserForLogin(loginUser);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9Cff4PpJEeeMccJD5RrNqg" name="addToGroupDB" specification="_9CaAUPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;INSERT INTO Groups (GroupName) &quot; + &quot;VALUES ('&quot; + groupName + &quot;' );&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9CsUMPpJEeeMccJD5RrNqg" name="addStudent" specification="_9CjxUPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    if (!newStudent.searchUserForName(newStudent.getRoleUser(), newStudent.getFirstName(), newStudent.getSecondName(), newStudent.getLastName())) {&#xD;
+        addToUsersDB(newStudent, personNum);&#xD;
+        addToStudentGroupDB(newStudent);&#xD;
+        return true;&#xD;
+    } else {&#xD;
+        return false;&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9C-oEPpJEeeMccJD5RrNqg" name="addTeacher" specification="_9CwloPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    if (!newTeacher.searchUserForName(newTeacher.getRoleUser(), newTeacher.getFirstName(), newTeacher.getSecondName(), newTeacher.getLastName())) {&#xD;
+        addToUsersDB(newTeacher, personNum);&#xD;
+        addToTeacherObjectsDB(newTeacher, eduObjectNames);&#xD;
+        return true;&#xD;
+    } else {&#xD;
+        return false;&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9DMDcPpJEeeMccJD5RrNqg" name="addToUsersDB" specification="_9DDgkPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;INSERT INTO Users (Login,Password,Role,FirstName,SecondName,LastName) &quot; + &quot;VALUES ('&quot; + addUser.getLoginUser() + &quot;', '&quot; + personNum + &quot;', '&quot; + addUser.getRoleUser() + &quot;', '&quot; + addUser.getFirstName() + &quot;', '&quot; + addUser.getSecondName() + &quot;', '&quot; + addUser.getLastName() + &quot;' );&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9DXpoPpJEeeMccJD5RrNqg" name="addToStudentGroupDB" specification="_9DSKEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;INSERT INTO StudentGroup (Login,GroupName) &quot; + &quot;VALUES ('&quot; + newStudent.getLoginUser() + &quot;', '&quot; + newStudent.getGroupName() + &quot;' );&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9DqkkPpJEeeMccJD5RrNqg" name="addToTeacherObjectsDB" specification="_9De-YPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/Users.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        dataBase.setAutoCommit(false);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        for (String eduObject : eduObjectNames) {&#xD;
+            String sqlite = &quot;INSERT INTO StudentGroup (Login,ObjectName) &quot; + &quot;VALUES ('&quot; + newTeacher.getLoginUser() + &quot;', '&quot; + eduObject + &quot;' );&quot;;&#xD;
+            statement.executeUpdate(sqlite);&#xD;
+        }&#xD;
+        statement.close();&#xD;
+        dataBase.commit();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9D08oPpJEeeMccJD5RrNqg" name="deleteGroup" specification="_9DwEIPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    Group deleteGroup = new Group(group);&#xD;
+    ArrayList&lt;Student> delStudents = deleteGroup.getStudents();&#xD;
+    for (Student student : delStudents) {&#xD;
+        deleteStudent(student);&#xD;
+    }&#xD;
+    deleteData(group, &quot;Users&quot;, &quot;Groups&quot;, &quot;GroupName&quot;);&#xD;
+    deleteData(group, &quot;Users&quot;, &quot;GroupEduObjs&quot;, &quot;GroupName&quot;);&#xD;
+    deleteData(group, &quot;Users&quot;, &quot;TeacherGroups&quot;, &quot;GroupName&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9D8RYPpJEeeMccJD5RrNqg" name="deleteStudent" specification="_9D3_8PpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    deleteData(student.getLoginUser(), &quot;Users&quot;, &quot;Users&quot;, &quot;Login&quot;);&#xD;
+    deleteData(student.getLoginUser(), &quot;Users&quot;, &quot;StudentGroup&quot;, &quot;Login&quot;);&#xD;
+    deleteData(student.getLoginUser(), &quot;Tests&quot;, &quot;StudentTestMarks&quot;, &quot;StudentLogin&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9EC_EPpJEeeMccJD5RrNqg" name="deleteTeacher" specification="_9D_UsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Users&quot;, &quot;Users&quot;, &quot;Login&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Users&quot;, &quot;GroupEduObjs&quot;, &quot;TeacherLogin&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Users&quot;, &quot;TeacherGroups&quot;, &quot;Login&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Users&quot;, &quot;TeacherObjects&quot;, &quot;Login&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Tests&quot;, &quot;UnVarQuest&quot;, &quot;TeacherLogin&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Tests&quot;, &quot;OneVarQuest&quot;, &quot;TeacherLogin&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Tests&quot;, &quot;SomeVarQuest&quot;, &quot;TeacherLogin&quot;);&#xD;
+    deleteData(teacher.getLoginUser(), &quot;Tests&quot;, &quot;TestNames&quot;, &quot;TeacherLogin&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9EVS8PpJEeeMccJD5RrNqg" name="deleteData" specification="_9EJFsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    try {&#xD;
+        Class.forName(&quot;org.sqlite.JDBC&quot;);&#xD;
+        String urlDataBase = &quot;jdbc:sqlite:c:\\DataBases/&quot; + dataBaseName + &quot;.db&quot;;&#xD;
+        Connection dataBase = DriverManager.getConnection(urlDataBase);&#xD;
+        Statement statement = dataBase.createStatement();&#xD;
+        String sqlite = &quot;DELETE FROM &quot; + tableName + &quot; WHERE &quot; + colElement + &quot; = '&quot; + element + &quot;';&quot;;&#xD;
+        statement.executeUpdate(sqlite);&#xD;
+        statement.close();&#xD;
+        dataBase.close();&#xD;
+    } catch (Exception e) {&#xD;
+        System.err.println(e.getMessage());&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9CFQMPpJEeeMccJD5RrNqg" name="Administrator" visibility="public" method="_9CVH0PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9CSrkPpJEeeMccJD5RrNqg" name="loginUser" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9CaAUPpJEeeMccJD5RrNqg" name="addToGroupDB" visibility="public" method="_9Cff4PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9CdqsPpJEeeMccJD5RrNqg" name="groupName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9CjxUPpJEeeMccJD5RrNqg" name="addStudent" visibility="public" method="_9CsUMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9CmNkPpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Cop0PpJEeeMccJD5RrNqg" name="newStudent" type="_8wnFsPpJEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9CqfAPpJEeeMccJD5RrNqg" name="personNum" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9CwloPpJEeeMccJD5RrNqg" name="addTeacher" visibility="public" method="_9C-oEPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9CzB4PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9C1eIPpJEeeMccJD5RrNqg" name="newTeacher" type="_8zVCgPpJEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9C36YPpJEeeMccJD5RrNqg" name="personNum" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9C6WoPpJEeeMccJD5RrNqg" name="eduObjectNames" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9C8y4PpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9C9Z8PpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9DDgkPpJEeeMccJD5RrNqg" name="addToUsersDB" visibility="private" method="_9DMDcPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DF80PpJEeeMccJD5RrNqg" name="addUser" type="_8ykNgPpJEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DIZEPpJEeeMccJD5RrNqg" name="personNum" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9DSKEPpJEeeMccJD5RrNqg" name="addToStudentGroupDB" visibility="private" method="_9DXpoPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DUmUPpJEeeMccJD5RrNqg" name="newStudent" type="_8wnFsPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9De-YPpJEeeMccJD5RrNqg" name="addToTeacherObjectsDB" visibility="private" method="_9DqkkPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DhaoPpJEeeMccJD5RrNqg" name="newTeacher" type="_8zVCgPpJEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Dkd8PpJEeeMccJD5RrNqg" name="eduObjectNames" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Dm6MPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9DoIUPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9DwEIPpJEeeMccJD5RrNqg" name="deleteGroup" visibility="public" method="_9D08oPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DzHcPpJEeeMccJD5RrNqg" name="group" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9D3_8PpJEeeMccJD5RrNqg" name="deleteStudent" visibility="public" method="_9D8RYPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9D6cMPpJEeeMccJD5RrNqg" name="student" type="_8wnFsPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9D_UsPpJEeeMccJD5RrNqg" name="deleteTeacher" visibility="public" method="_9EC_EPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9D_7wPpJEeeMccJD5RrNqg" name="teacher" type="_8zVCgPpJEeeMccJD5RrNqg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9EJFsPpJEeeMccJD5RrNqg" name="deleteData" visibility="private" method="_9EVS8PpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ELh8PpJEeeMccJD5RrNqg" name="element" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9EMwEPpJEeeMccJD5RrNqg" name="dataBaseName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9EQacPpJEeeMccJD5RrNqg" name="tableName" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ES2sPpJEeeMccJD5RrNqg" name="colElement" type="_L2cgkPpDEeeMccJD5RrNqg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9EgSEPpJEeeMccJD5RrNqg" name="SomeVaribleQuestion" visibility="public">
+          <generalization xmi:type="uml:Generalization" xmi:id="_9EiuUPpJEeeMccJD5RrNqg" general="_yjGv4PpJEeeMccJD5RrNqg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9Em_wPpJEeeMccJD5RrNqg" name="varibleAnswears" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9EsfUPpJEeeMccJD5RrNqg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9EuUgPpJEeeMccJD5RrNqg" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9ExX0PpJEeeMccJD5RrNqg" name="rightAnswears" visibility="private" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9E23YPpJEeeMccJD5RrNqg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9E4skPpJEeeMccJD5RrNqg" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9E7I0PpJEeeMccJD5RrNqg" name="userAnswears" visibility="public" type="_L2cgkPpDEeeMccJD5RrNqg" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9FABUPpJEeeMccJD5RrNqg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9FB2gPpJEeeMccJD5RrNqg" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9FODwPpJEeeMccJD5RrNqg" name="getVaribleAnswears" specification="_9FDrsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return varibleAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9FaRAPpJEeeMccJD5RrNqg" name="setVaribleAnswears" specification="_9FRHEPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.varibleAnswears = varibleAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9FnFUPpJEeeMccJD5RrNqg" name="getRightAnswears" specification="_9FeicPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    return rightAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9F4yIPpJEeeMccJD5RrNqg" name="setRightAnswears" specification="_9FtzAPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    this.rightAnswears = rightAnswears;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9GDKMPpJEeeMccJD5RrNqg" name="calculateMark" specification="_9F-RsPpJEeeMccJD5RrNqg">
+            <language>JAVA</language>
+            <body>&#xD;
+    double result = 0;&#xD;
+    for (String userAnswear : userAnswears) {&#xD;
+        for (String rightAnswear : rightAnswears) {&#xD;
+            if (userAnswear.equals(rightAnswear)) {&#xD;
+                result += 0.5;&#xD;
+            }&#xD;
+        }&#xD;
+    }&#xD;
+    return result;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9FDrsPpJEeeMccJD5RrNqg" name="getVaribleAnswears" visibility="public" method="_9FODwPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9FH9IPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9FLAcPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9FMOkPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9FRHEPpJEeeMccJD5RrNqg" name="setVaribleAnswears" visibility="public" method="_9FaRAPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9FUxcPpJEeeMccJD5RrNqg" name="varibleAnswears" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9FXNsPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9FZC4PpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9FeicPpJEeeMccJD5RrNqg" name="getRightAnswears" visibility="public" method="_9FnFUPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9FhlwPpJEeeMccJD5RrNqg" type="_L2cgkPpDEeeMccJD5RrNqg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9FkCAPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9FlQIPpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9FtzAPpJEeeMccJD5RrNqg" name="setRightAnswears" visibility="public" method="_9F4yIPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9FyEcPpJEeeMccJD5RrNqg" name="rightAnswears" type="_L2cgkPpDEeeMccJD5RrNqg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9F1HwPpJEeeMccJD5RrNqg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9F2V4PpJEeeMccJD5RrNqg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9F-RsPpJEeeMccJD5RrNqg" name="calculateMark" visibility="public" method="_9GDKMPpJEeeMccJD5RrNqg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_9GAG4PpJEeeMccJD5RrNqg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L2T9sPpDEeeMccJD5RrNqg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L2XoEPpDEeeMccJD5RrNqg" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_L2aEUPpDEeeMccJD5RrNqg" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_L2cgkPpDEeeMccJD5RrNqg" name="String"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_8xkvAPpJEeeMccJD5RrNqg" name="util">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_8xlWEPpJEeeMccJD5RrNqg" name="Comparator"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="___Tu8PpMEeeMccJD5RrNqg" memberEnd="___YncPpMEeeMccJD5RrNqg ___ZOgPpMEeeMccJD5RrNqg" navigableOwnedEnd="___YncPpMEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="___XZUPpMEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="___YAYPpMEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="___ZOgPpMEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg" association="___Tu8PpMEeeMccJD5RrNqg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="___YncPpMEeeMccJD5RrNqg" name="включает в себя" type="_wohooPpAEeeMccJD5RrNqg" association="___Tu8PpMEeeMccJD5RrNqg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Date0PpNEeeMccJD5RrNqg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Da4d8PpNEeeMccJD5RrNqg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-yT-EPpREeeMccJD5RrNqg" memberEnd="_-yVMMfpREeeMccJD5RrNqg _-yVMMvpREeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-yUlIPpREeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-yVMMPpREeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-yVMMvpREeeMccJD5RrNqg" name="создает" type="_1MwBwPpAEeeMccJD5RrNqg" association="_-yT-EPpREeeMccJD5RrNqg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_um2moPpSEeeMccJD5RrNqg" memberEnd="_um30wvpSEeeMccJD5RrNqg _um4b0PpSEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_um30wPpSEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_um30wfpSEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_um4b0PpSEeeMccJD5RrNqg" name="использует" type="_1MwBwPpAEeeMccJD5RrNqg" association="_um2moPpSEeeMccJD5RrNqg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OVLZkPpTEeeMccJD5RrNqg" name="использует" memberEnd="_OVOc4PpTEeeMccJD5RrNqg _OVPD8PpTEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OVN10PpTEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OVN10fpTEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OVPD8PpTEeeMccJD5RrNqg" name="test" type="_zteAUPpAEeeMccJD5RrNqg" association="_OVLZkPpTEeeMccJD5RrNqg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vg9pAPpTEeeMccJD5RrNqg" name="использует" memberEnd="_vg-3IvpTEeeMccJD5RrNqg _vg_eMPpTEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vg-3IPpTEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vg-3IfpTEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vg_eMPpTEeeMccJD5RrNqg" name="addquestionstestservlet" type="_03AbQPpAEeeMccJD5RrNqg" association="_vg9pAPpTEeeMccJD5RrNqg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_AGiUIPpUEeeMccJD5RrNqg" name="сохраняет" memberEnd="_AGi7MvpUEeeMccJD5RrNqg _AGjiQPpUEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AGi7MPpUEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AGi7MfpUEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_AGjiQPpUEeeMccJD5RrNqg" name="addquestionstestservlet" type="_03AbQPpAEeeMccJD5RrNqg" association="_AGiUIPpUEeeMccJD5RrNqg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LxkAkPpDEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LxknoPpDEeeMccJD5RrNqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LzhIYPpDEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LzjkoPpDEeeMccJD5RrNqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LzkywPpDEeeMccJD5RrNqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LzkywfpDEeeMccJD5RrNqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PapyrusJava:External xmi:id="_L2s_QPpDEeeMccJD5RrNqg" name="java.lang.String" base_Classifier="_L2cgkPpDEeeMccJD5RrNqg"/>
+  <PapyrusJava:External xmi:id="_yiOmIPpJEeeMccJD5RrNqg" name="ArrayList" base_Classifier="_yiE1IPpJEeeMccJD5RrNqg"/>
+  <PapyrusJava:External xmi:id="_yjP50PpJEeeMccJD5RrNqg" name="Question" base_Classifier="_yjGv4PpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_8wyE0PpJEeeMccJD5RrNqg" base_BehavioralFeature="_8wqJAPpJEeeMccJD5RrNqg"/>
+  <PapyrusJava:External xmi:id="_8xrcsPpJEeeMccJD5RrNqg" name="java.util.Comparator" base_Classifier="_8xlWEPpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_8zezgPpJEeeMccJD5RrNqg" base_BehavioralFeature="_8zXewPpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_8zokgPpJEeeMccJD5RrNqg" base_BehavioralFeature="_8zhPwPpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_83OEAPpJEeeMccJD5RrNqg" base_BehavioralFeature="_83E6EfpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_83d7oPpJEeeMccJD5RrNqg" base_BehavioralFeature="_83XN8PpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_89lKsPpJEeeMccJD5RrNqg" base_BehavioralFeature="_89dO4PpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_895TwPpJEeeMccJD5RrNqg" base_BehavioralFeature="_89ww4PpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_8-RHMPpJEeeMccJD5RrNqg" base_BehavioralFeature="_8-JycPpJEeeMccJD5RrNqg"/>
+  <standard:Create xmi:id="_9COaIPpJEeeMccJD5RrNqg" base_BehavioralFeature="_9CFQMPpJEeeMccJD5RrNqg"/>
+</xmi:XMI>

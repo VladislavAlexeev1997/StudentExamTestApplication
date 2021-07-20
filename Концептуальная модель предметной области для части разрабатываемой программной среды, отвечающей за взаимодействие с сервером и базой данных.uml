@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SrGvgPl4EeeMccJD5RrNqg" name="RootElement">
+  <packagedElement xmi:type="uml:DataType" xmi:id="_l8Ep4Pl4EeeMccJD5RrNqg" name="Пользователь">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__UyBwPl8EeeMccJD5RrNqg" name="использует" type="_mgm6UPl4EeeMccJD5RrNqg" association="__IuiwPl8EeeMccJD5RrNqg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ph6-wvl9EeeMccJD5RrNqg" name="использует" type="_m42bMPl4EeeMccJD5RrNqg" association="_Ph5woPl9EeeMccJD5RrNqg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_89I_gvl9EeeMccJD5RrNqg" name="студент" type="_picToPl4EeeMccJD5RrNqg" association="_89HxYPl9EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ESy-cPl-EeeMccJD5RrNqg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ETBA4Pl-EeeMccJD5RrNqg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xf3QQfl-EeeMccJD5RrNqg" name="преподаватель" type="_oy2CsPl4EeeMccJD5RrNqg" association="_Xf1bEPl-EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fnpPsPl-EeeMccJD5RrNqg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fnznwPl-EeeMccJD5RrNqg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oBz_ofl-EeeMccJD5RrNqg" name="использует" type="_p15bIPl4EeeMccJD5RrNqg" association="_oByxgPl-EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_mgm6UPl4EeeMccJD5RrNqg" name="Личный кабинет">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4_dFIfmBEeeMccJD5RrNqg" name="соединение с бд" type="_ud5hAPl4EeeMccJD5RrNqg" association="_4_b3APmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_m42bMPl4EeeMccJD5RrNqg" name="Авторизация">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cREK4Pl9EeeMccJD5RrNqg" name="личный кабинет" type="_mgm6UPl4EeeMccJD5RrNqg" association="_cRCVsPl9EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AeJoIPl-EeeMccJD5RrNqg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AeYRoPl-EeeMccJD5RrNqg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4DJN4PmBEeeMccJD5RrNqg" name="соединение с бд" type="_ud5hAPl4EeeMccJD5RrNqg" association="_4DH_wPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_oy2CsPl4EeeMccJD5RrNqg" name="Преподаватель">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LhfkUvl_EeeMccJD5RrNqg" name="тест" type="_qxjLEPl4EeeMccJD5RrNqg" association="_LhdvIPl_EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OjBF4PxDEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OjgOEPxDEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uya7Ufl_EeeMccJD5RrNqg" name="вопрос" type="_rUL-EPl4EeeMccJD5RrNqg" association="_uyZGIPl_EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RS2wQPxDEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RTJrMPxDEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NmlMEvmAEeeMccJD5RrNqg" name="просматривает" type="_r1la8Pl4EeeMccJD5RrNqg" association="_NmVUcPmAEeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WSeE4PxDEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WSwYwPxDEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_picToPl4EeeMccJD5RrNqg" name="Студент">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fPtl8fmAEeeMccJD5RrNqg" name="проходит" type="_qxjLEPl4EeeMccJD5RrNqg" association="_fPsX0PmAEeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JdWFMPxGEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JdpAIPxGEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_p15bIPl4EeeMccJD5RrNqg" name="Каталог тестов"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_qxjLEPl4EeeMccJD5RrNqg" name="Тест">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4Sd4wPmAEeeMccJD5RrNqg" name="вопрос" type="_rUL-EPl4EeeMccJD5RrNqg" association="_4ScDkPmAEeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AI3NQPmBEeeMccJD5RrNqg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AJEBkPmBEeeMccJD5RrNqg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kCCQAfmBEeeMccJD5RrNqg" name="счетчик результатов" type="_soOY0Pl4EeeMccJD5RrNqg" association="_kCAa0PmBEeeMccJD5RrNqg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2hwToPmBEeeMccJD5RrNqg" name="сохранение" type="_t1bLwPl4EeeMccJD5RrNqg" association="_2huecPmBEeeMccJD5RrNqg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3M0C0fmBEeeMccJD5RrNqg" name="использует" type="_ud5hAPl4EeeMccJD5RrNqg" association="_3MyNoPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_rUL-EPl4EeeMccJD5RrNqg" name="Вопрос"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_r1la8Pl4EeeMccJD5RrNqg" name="Результат тестирования"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_soOY0Pl4EeeMccJD5RrNqg" name="Счетчик результатов"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tNiFUPl4EeeMccJD5RrNqg" name="Дисциплина">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_McT74fmBEeeMccJD5RrNqg" name="тест" type="_qxjLEPl4EeeMccJD5RrNqg" association="_McStwPmBEeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mziuUPmBEeeMccJD5RrNqg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m10mQPmBEeeMccJD5RrNqg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_t1bLwPl4EeeMccJD5RrNqg" name="Сохранение"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ud5hAPl4EeeMccJD5RrNqg" name="Соединение с БД"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__IuiwPl8EeeMccJD5RrNqg" memberEnd="__UyBwPl8EeeMccJD5RrNqg __VNfkPl8EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__TqncPl8EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T_-oPl8EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__VNfkPl8EeeMccJD5RrNqg" name="пользователь" type="_l8Ep4Pl4EeeMccJD5RrNqg" association="__IuiwPl8EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ph5woPl9EeeMccJD5RrNqg" memberEnd="_Ph6-wvl9EeeMccJD5RrNqg _Ph7l0Pl9EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ph6-wPl9EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ph6-wfl9EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ph7l0Pl9EeeMccJD5RrNqg" name="пользователь" type="_l8Ep4Pl4EeeMccJD5RrNqg" association="_Ph5woPl9EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cRCVsPl9EeeMccJD5RrNqg" memberEnd="_cREK4Pl9EeeMccJD5RrNqg _cREx8Pl9EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cRDj0Pl9EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cRDj0fl9EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cREx8Pl9EeeMccJD5RrNqg" name="предоставляет доступ" type="_m42bMPl4EeeMccJD5RrNqg" association="_cRCVsPl9EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_89HxYPl9EeeMccJD5RrNqg" memberEnd="_89I_gvl9EeeMccJD5RrNqg _89JmkPl9EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_89I_gPl9EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_89I_gfl9EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_89JmkPl9EeeMccJD5RrNqg" name="может быть" type="_l8Ep4Pl4EeeMccJD5RrNqg" association="_89HxYPl9EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Xf1bEPl-EeeMccJD5RrNqg" memberEnd="_Xf3QQfl-EeeMccJD5RrNqg _Xf4eYPl-EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Xf2pMPl-EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xf3QQPl-EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xf4eYPl-EeeMccJD5RrNqg" name="может быть" type="_l8Ep4Pl4EeeMccJD5RrNqg" association="_Xf1bEPl-EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oByxgPl-EeeMccJD5RrNqg" memberEnd="_oBz_ofl-EeeMccJD5RrNqg _oBz_ovl-EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oBzYkPl-EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oBz_oPl-EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oBz_ovl-EeeMccJD5RrNqg" name="пользователь" type="_l8Ep4Pl4EeeMccJD5RrNqg" association="_oByxgPl-EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LhdvIPl_EeeMccJD5RrNqg" memberEnd="_LhfkUvl_EeeMccJD5RrNqg _LhgycPl_EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LhfkUPl_EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LhfkUfl_EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LhgycPl_EeeMccJD5RrNqg" name="редактирует" type="_oy2CsPl4EeeMccJD5RrNqg" association="_LhdvIPl_EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uyZGIPl_EeeMccJD5RrNqg" memberEnd="_uya7Ufl_EeeMccJD5RrNqg _uybiYPl_EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uyaUQPl_EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uya7UPl_EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uybiYPl_EeeMccJD5RrNqg" name="удаляет" type="_oy2CsPl4EeeMccJD5RrNqg" association="_uyZGIPl_EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NmVUcPmAEeeMccJD5RrNqg" memberEnd="_NmlMEvmAEeeMccJD5RrNqg _NmlzIPmAEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NmlMEPmAEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NmlMEfmAEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NmlzIPmAEeeMccJD5RrNqg" name="преподаватель" type="_oy2CsPl4EeeMccJD5RrNqg" association="_NmVUcPmAEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fPsX0PmAEeeMccJD5RrNqg" memberEnd="_fPtl8fmAEeeMccJD5RrNqg _fPuNAPmAEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fPs-4PmAEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPtl8PmAEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fPuNAPmAEeeMccJD5RrNqg" name="студент" type="_picToPl4EeeMccJD5RrNqg" association="_fPsX0PmAEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4ScDkPmAEeeMccJD5RrNqg" memberEnd="_4Sd4wPmAEeeMccJD5RrNqg _4Sef0PmAEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4SdRsPmAEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4SdRsfmAEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4Sef0PmAEeeMccJD5RrNqg" name="состоит из" type="_qxjLEPl4EeeMccJD5RrNqg" association="_4ScDkPmAEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_McStwPmBEeeMccJD5RrNqg" memberEnd="_McT74fmBEeeMccJD5RrNqg _McUi8PmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_McTU0PmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_McT74PmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_McUi8PmBEeeMccJD5RrNqg" name="включает в себя" type="_tNiFUPl4EeeMccJD5RrNqg" association="_McStwPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kCAa0PmBEeeMccJD5RrNqg" memberEnd="_kCCQAfmBEeeMccJD5RrNqg _kCC3EPmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kCBo8PmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCCQAPmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kCC3EPmBEeeMccJD5RrNqg" name="использует" type="_qxjLEPl4EeeMccJD5RrNqg" association="_kCAa0PmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2huecPmBEeeMccJD5RrNqg" memberEnd="_2hwToPmBEeeMccJD5RrNqg _2hw6sPmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2hvskPmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2hvskfmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2hw6sPmBEeeMccJD5RrNqg" name="использует" type="_qxjLEPl4EeeMccJD5RrNqg" association="_2huecPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3MyNoPmBEeeMccJD5RrNqg" memberEnd="_3M0C0fmBEeeMccJD5RrNqg _3M0p4PmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3MzbwPmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3M0C0PmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3M0p4PmBEeeMccJD5RrNqg" name="тест" type="_qxjLEPl4EeeMccJD5RrNqg" association="_3MyNoPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4DH_wPmBEeeMccJD5RrNqg" memberEnd="_4DJN4PmBEeeMccJD5RrNqg _4DJN4fmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4DIm0PmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4DIm0fmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4DJN4fmBEeeMccJD5RrNqg" name="использует" type="_m42bMPl4EeeMccJD5RrNqg" association="_4DH_wPmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4_b3APmBEeeMccJD5RrNqg" memberEnd="_4_dFIfmBEeeMccJD5RrNqg _4_dsMPmBEeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4_ceEPmBEeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4_dFIPmBEeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4_dsMPmBEeeMccJD5RrNqg" name="использует" type="_mgm6UPl4EeeMccJD5RrNqg" association="_4_b3APmBEeeMccJD5RrNqg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_usDU4PpAEeeMccJD5RrNqg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_wokr8PpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wol6EPpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_womhIPpAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_womhIfpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_womhIvpAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_2S11MPpCEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_2RzTYPpCEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2S11MfpCEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_womhI_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_womhJPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_womhJfpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_womhJvpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wonIMPpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_1vTqUPpCEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_1u2-YPpCEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1vTqUfpCEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_TesEUPpDEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_TeOxUPpDEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TesEUfpDEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_URbv4PpDEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_URG_wPpDEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_URbv4fpDEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wonIMfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wonIMvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wonIM_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wonINPpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wonINfpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wonINvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wonIN_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wonIOPpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wonIOfpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_wohooPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wolTAPpAEeeMccJD5RrNqg" x="581" y="263" height="117"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_w9RwoPpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_w9RwovpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w9Rwo_pAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w9RwpPpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_w9RwpfpAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_A-x-APpEEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_A-Tc4PpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A-x-AfpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_CDWZYPpEEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_CC8JsPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CDWZYfpEEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_w9RwpvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_w9Rwp_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_w9RwqPpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9RwqfpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_w9RwqvpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_D5L5oPpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_D4MbIPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D5L5ofpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_E4GY8PpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_E3riMPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4GY8fpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FcMkgPpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_FbrnIPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FcMkgfpEEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_w9Rwq_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_w9RwrPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_w9RwrfpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9RwrvpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_w9Rwr_pAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_w9RwsPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_w9RwsfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_w9RwsvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9SXsPpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_w9P7cPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9RwofpAEeeMccJD5RrNqg" x="584" y="430" height="131"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xPI8sPpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xPI8svpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xPI8s_pAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xPI8tPpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xPI8tfpAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_hyCGwPpGEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_hxla0PpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hyCGwfpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jAZ-YPpGEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_jAAVwPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jAZ-YfpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_j-6OAPpGEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_j-eJIPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j-6OAfpGEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xPI8tvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xPJjwPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xPJjwfpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPJjwvpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xPJjw_pAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_mYNnsPpGEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_mXufgPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mYNnsfpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mv4g0PpGEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_mvMkUPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mv4g0fpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_m8dkQPpGEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_m8A4UPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_m8dkQfpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nFlrEPpGEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_nFC4gPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nFlrEfpGEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nPrbMPpGEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_nO_esPpGEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPrbMfpGEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xPJjxPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xPJjxfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xPJjxvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPJjx_pAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xPJjyPpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xPJjyfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xPJjyvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xPJjy_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPJjzPpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_xPHHgPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPI8sfpAEeeMccJD5RrNqg" x="862" y="430" height="184"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xkUigPpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xkVJkPpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xkVJkfpAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xkVJkvpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xkVJk_pAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_8FVtYPpEEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_8E62oPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8FVtYfpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8mnOcPpEEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_8mM-wPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8mnOcfpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_810IEPpEEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_81XcIPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_810IEfpEEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xkVJlPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xkVJlfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xkVJlvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkVJl_pAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xkVJmPpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9Mgw0PpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9MCPsPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9Mgw0fpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9VPPAPpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9UzKIPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9VPPAfpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9bUB0PpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9a05oPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9bUB0fpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9hNOcPpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9gxJkPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9hNOcfpEEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9nVroPpEEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9muAkPpEEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9nVrofpEEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xkVJmfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xkVJmvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xkVJm_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkVJnPpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xkVJnfpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xkVJnvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xkVJn_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xkVJoPpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkVJofpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_xkTUYPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkUigfpAEeeMccJD5RrNqg" x="271" y="430" width="296" height="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ztf1gPpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ztgckPpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ztgckfpAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ztgckvpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ztgck_pAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_I5yeAPpKEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_I5QSgPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_I5yeAfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JmyG4PpKEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_JmVa8PpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JmyG4fpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Kw5JkPpKEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_KwaBYPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Kw5JkfpKEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ztgclPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ztgclfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ztgclvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztgcl_pAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ztgcmPpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Lim6YPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Lh694PpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Lim6YfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_M_xb8PpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_M_NbQPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_M_xb8fpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NkUTcPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_NjsoYPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NkUTcfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NzXcEPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Ny2esPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NzXcEfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_N9Y6wPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_N8yd0PpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N9Y6wfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_OEclAPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OD3WMPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OEclAfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_OPxrQPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OPO4sPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OPxrQfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_OVmmcPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OVBXoPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OVmmcfpKEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ObpkEPpKEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_ObDuMPpKEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ObpkEfpKEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ztgcmfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ztgcmvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ztgcm_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztgcnPpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zthDoPpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zthDofpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zthDovpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zthDo_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zthDpPpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_zteAUPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztf1gfpAEeeMccJD5RrNqg" x="810" y="-20" width="373" height="252"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0Ww08PpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0WxcAPpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0WxcAfpAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0WxcAvpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0WxcA_pAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0WxcBPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0WxcBfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0WxcBvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0WxcB_pAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0WxcCPpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_vcMvsPpREeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_vbp9IPpREeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vcMvsfpREeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wFXogPpREeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_wEyZsPpREeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wFXogfpREeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_w2zFcPpREeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_w2MogPpREeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_w2zFcfpREeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xWX9YPpREeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_xVyukPpREeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xWX9YfpREeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xqmg8PpREeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_xp7ykPpREeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqmg8fpREeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0WxcCfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0WxcCvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0WxcC_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0WxcDPpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0WxcDfpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0WxcDvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0WxcD_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0WxcEPpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0WxcEfpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_0Wu_wPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ww08fpAEeeMccJD5RrNqg" x="564" y="47"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_03BpYPpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_03CQcPpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_03CQcfpAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_03CQcvpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_03CQc_pAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_03CQdPpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_03CQdfpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_03CQdvpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03CQd_pAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_03CQePpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_k0Z_sPpTEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_kz1X8PpTEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k0Z_sfpTEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lOLxoPpTEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_lNkGkPpTEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lOLxofpTEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_l1HOwPpTEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_l0cgYPpTEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l1HOwfpTEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_03CQefpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_03CQevpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_03CQe_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03CQfPpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_03CQffpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_03CQfvpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_03CQf_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_03CQgPpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03CQgfpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_03AbQPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03BpYfpAEeeMccJD5RrNqg" x="98" y="300" width="172"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1MxP4PpAEeeMccJD5RrNqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1MxP4vpAEeeMccJD5RrNqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1MxP4_pAEeeMccJD5RrNqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1MxP5PpAEeeMccJD5RrNqg" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1MxP5fpAEeeMccJD5RrNqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_CwPWwPpTEeeMccJD5RrNqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Cu7IIPpTEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CwPWwfpTEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1MxP5vpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1MxP5_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1MxP6PpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1MxP6fpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1Mx28PpAEeeMccJD5RrNqg" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="__QWsUPpOEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#__P1u8PpOEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__QWsUfpOEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_AKSlAPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_AJwZgPpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AKSlAfpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ans5wPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Am9S4PpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ans5wfpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BCCFUPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_BBboYPpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BCCFUfpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BOJOsPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_BNfucPpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BOJOsfpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BVvrgPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_BVIngPpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BVvrgfpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BcyHoPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_BcNf4PpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BcyHofpPEeeMccJD5RrNqg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BjGLAPpPEeeMccJD5RrNqg" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Bid44PpPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BjGLAfpPEeeMccJD5RrNqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1Mx28fpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1Mx28vpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1Mx28_pAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Mx29PpAEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1Mx29fpAEeeMccJD5RrNqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1Mx29vpAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1Mx29_pAEeeMccJD5RrNqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1Mx2-PpAEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Mx2-fpAEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_1MwBwPpAEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1MxP4fpAEeeMccJD5RrNqg" x="135" y="-3" width="312" height="207"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_usDU4fpAEeeMccJD5RrNqg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_usDU4vpAEeeMccJD5RrNqg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_usDU4_pAEeeMccJD5RrNqg">
+    <owner xmi:type="uml:Model" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_uqRzQPpAEeeMccJD5RrNqg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_uqRzQPpAEeeMccJD5RrNqg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_2VwCcPpGEeeMccJD5RrNqg" type="Generalization_Edge" source="_w9RwoPpAEeeMccJD5RrNqg" target="_wokr8PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2VwpgPpGEeeMccJD5RrNqg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MOUmUPpJEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2VwpgfpGEeeMccJD5RrNqg" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2VwCcfpGEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Generalization" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_2U2qkPpGEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2VwCcvpGEeeMccJD5RrNqg" points="[685, 409, -643984, -643984]$[685, 357, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2W9jYPpGEeeMccJD5RrNqg" id="(0.39622641509433965,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2W-KcPpGEeeMccJD5RrNqg" id="(0.5,0.9829059829059829)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9bJX0PpGEeeMccJD5RrNqg" type="Generalization_Edge" source="_xkUigPpAEeeMccJD5RrNqg" target="_wokr8PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9bJX0_pGEeeMccJD5RrNqg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_LQglIPpHEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9bJ-4PpGEeeMccJD5RrNqg" y="39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9bJX0fpGEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Generalization" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_9atS8PpGEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9bJX0vpGEeeMccJD5RrNqg" points="[412, 429, -643984, -643984]$[412, 408, -643984, -643984]$[690, 408, -643984, -643984]$[684, 378, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9cHoMPpGEeeMccJD5RrNqg" id="(0.47635135135135137,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9cIPQPpGEeeMccJD5RrNqg" id="(0.5138888888888888,0.9743589743589743)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XtXHYPpHEeeMccJD5RrNqg" type="Generalization_Edge" source="_xPI8sPpAEeeMccJD5RrNqg" target="_wokr8PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XtXHY_pHEeeMccJD5RrNqg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_YkPFAPpHEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XtXHZPpHEeeMccJD5RrNqg" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XtXHYfpHEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Generalization" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_Xs83sPpHEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XtXHYvpHEeeMccJD5RrNqg" points="[988, 429, -643984, -643984]$[989, 408, -643984, -643984]$[690, 408, -643984, -643984]$[684, 378, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuUJoPpHEeeMccJD5RrNqg" id="(0.4315068493150685,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuUJofpHEeeMccJD5RrNqg" id="(0.5046296296296297,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AAI1YPpNEeeMccJD5RrNqg" type="Association_Edge" source="_ztf1gPpAEeeMccJD5RrNqg" target="_wokr8PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKDgPpNEeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKDgfpNEeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKDgvpNEeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKDg_pNEeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKqkPpNEeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_NrqxQPpNEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKqkfpNEeeMccJD5RrNqg" x="24" y="-29"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKqkvpNEeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_PlCtsPpNEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKqk_pNEeeMccJD5RrNqg" x="-38" y="-7"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKqlPpNEeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKqlfpNEeeMccJD5RrNqg" x="-22" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AAKqlvpNEeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AAKql_pNEeeMccJD5RrNqg" x="23" y="-14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AAJccPpNEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#___Tu8PpMEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAJccfpNEeeMccJD5RrNqg" points="[912, 232, -643984, -643984]$[796, 309, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AB6-EPpNEeeMccJD5RrNqg" id="(0.2761394101876676,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AB7lIPpNEeeMccJD5RrNqg" id="(0.9953703703703703,0.4017094017094017)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-y5M4PpREeeMccJD5RrNqg" type="Association_Edge" source="_1MxP4PpAEeeMccJD5RrNqg" target="_ztf1gPpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y5z8PpREeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y5z8fpREeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y5z8vpREeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y5z8_pREeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y5z9PpREeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_HzK6kPpSEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y5z9fpREeeMccJD5RrNqg" x="80" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y6bAPpREeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_GoVfIPpSEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y6bAfpREeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y6bAvpREeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y6bA_pREeeMccJD5RrNqg" x="-45" y="10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-y6bBPpREeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y6bBfpREeeMccJD5RrNqg" x="38" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-y5M4fpREeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_-yT-EPpREeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-y5M4vpREeeMccJD5RrNqg" points="[445, 24, -643984, -643984]$[809, 24, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-0OCkPpREeeMccJD5RrNqg" id="(0.9967948717948718,0.13705583756345177)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-0OCkfpREeeMccJD5RrNqg" id="(0.0,0.1746031746031746)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_unbOYPpSEeeMccJD5RrNqg" type="Association_Edge" source="_1MxP4PpAEeeMccJD5RrNqg" target="_0Ww08PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_unb1cPpSEeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XTEhoPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unb1cfpSEeeMccJD5RrNqg" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unb1cvpSEeeMccJD5RrNqg" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XTpJYPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unb1c_pSEeeMccJD5RrNqg" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unb1dPpSEeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_42bZAPpSEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>name</stringListValue>
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XUVF4PpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unb1dfpSEeeMccJD5RrNqg" x="13" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unb1dvpSEeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_6Hc8APpSEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XVGh8PpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unb1d_pSEeeMccJD5RrNqg" x="-113" y="119"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unb1ePpSEeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XV82gPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unccgPpSEeeMccJD5RrNqg" x="5" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_unccgfpSEeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XWzyIPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_unccgvpSEeeMccJD5RrNqg" x="-16" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_unbOYfpSEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_um2moPpSEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_unbOYvpSEeeMccJD5RrNqg" points="[445, 125, -643984, -643984]$[568, 157, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uowEEPpSEeeMccJD5RrNqg" id="(1.0,0.6328502415458938)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uowEEfpSEeeMccJD5RrNqg" id="(0.0,0.50625)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OV5LQPpTEeeMccJD5RrNqg" type="Association_Edge" source="_ztf1gPpAEeeMccJD5RrNqg" target="_0Ww08PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV5yUPpTEeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XXpfoPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZYPpTEeeMccJD5RrNqg" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV6ZYfpTEeeMccJD5RrNqg" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XYkFoPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZYvpTEeeMccJD5RrNqg" x="30" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV6ZY_pTEeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_So7GsPpTEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XZgg0PpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZZPpTEeeMccJD5RrNqg" x="61" y="-29"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV6ZZfpTEeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_RQRRsPpTEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XaZ4sPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZZvpTEeeMccJD5RrNqg" x="-23" y="26"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV6ZZ_pTEeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XbRbYPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZaPpTEeeMccJD5RrNqg" x="15" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OV6ZafpTEeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XcNPgPpTEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OV6ZavpTEeeMccJD5RrNqg" x="-5" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OV5LQfpTEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_OVLZkPpTEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OV5LQvpTEeeMccJD5RrNqg" points="[809, 97, -643984, -643984]$[712, 140, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OXZAEPpTEeeMccJD5RrNqg" id="(0.0,0.4603174603174603)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OXZAEfpTEeeMccJD5RrNqg" id="(0.9863013698630136,0.3125)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vhvFEPpTEeeMccJD5RrNqg" type="Association_Edge" source="_03BpYPpAEeeMccJD5RrNqg" target="_1MxP4PpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhvsIPpTEeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_IkEhIPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhvsIfpTEeeMccJD5RrNqg" x="-1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhvsIvpTEeeMccJD5RrNqg" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_IkuBYPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhvsI_pTEeeMccJD5RrNqg" x="-7" y="9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhvsJPpTEeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_yoPjAPpTEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_IlcaIPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhvsJfpTEeeMccJD5RrNqg" x="-23" y="-146"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhvsJvpTEeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_zuVoYPpTEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ImEFMPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhvsJ_pTEeeMccJD5RrNqg" x="-34" y="23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhwTMPpTEeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ImtlcPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhwTMfpTEeeMccJD5RrNqg" x="9" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vhwTMvpTEeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_InWeoPpUEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vhwTM_pTEeeMccJD5RrNqg" x="-17" y="-24"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vhvFEfpTEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_vg9pAPpTEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vhvFEvpTEeeMccJD5RrNqg" points="[164, 300, -643984, -643984]$[229, 202, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vjqXsPpTEeeMccJD5RrNqg" id="(0.5359477124183006,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vjqXsfpTEeeMccJD5RrNqg" id="(0.18269230769230768,0.9855072463768116)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AHad4PpUEeeMccJD5RrNqg" type="Association_Edge" source="_03BpYPpAEeeMccJD5RrNqg" target="_ztf1gPpAEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHad4_pUEeeMccJD5RrNqg" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE8PpUEeeMccJD5RrNqg" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHbE8fpUEeeMccJD5RrNqg" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE8vpUEeeMccJD5RrNqg" x="-66" y="-30"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHbE8_pUEeeMccJD5RrNqg" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_DU9_APpUEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE9PpUEeeMccJD5RrNqg" x="50" y="-42"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHbE9fpUEeeMccJD5RrNqg" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_CKQfYPpUEeeMccJD5RrNqg" name="maskLabel">
+        <stringListValue>derived</stringListValue>
+      </styles>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE9vpUEeeMccJD5RrNqg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHbE9_pUEeeMccJD5RrNqg" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE-PpUEeeMccJD5RrNqg" x="-75" y="16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AHbE-fpUEeeMccJD5RrNqg" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AHbE-vpUEeeMccJD5RrNqg" x="63" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AHad4fpUEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Association" href="Диаграмма%20классов%20для%20части%20программной%20среды,%20отвечающей%20за%20размещение%20теста%20на%20сайте.uml#_AGiUIPpUEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AHad4vpUEeeMccJD5RrNqg" points="[248, 328, -643984, -643984]$[809, 208, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AJRfEPpUEeeMccJD5RrNqg" id="(0.9869281045751634,0.21875)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AJRfEfpUEeeMccJD5RrNqg" id="(0.0,0.9087301587301587)"/>
+  </edges>
+</notation:Diagram>

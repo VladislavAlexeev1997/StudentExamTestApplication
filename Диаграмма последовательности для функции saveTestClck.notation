@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tr6GIPn2EeeMccJD5RrNqg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_tr6GIfn2EeeMccJD5RrNqg" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tr6GIvn2EeeMccJD5RrNqg" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tr6GI_n2EeeMccJD5RrNqg" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_-0W_YPn3EeeMccJD5RrNqg" type="Lifeline_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IE7L0Pn4EeeMccJD5RrNqg" source="CustomExtensionInfo">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IE7y4Pn4EeeMccJD5RrNqg" key="manual.label.size" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_-0W_Yvn3EeeMccJD5RrNqg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_-0fiQPn3EeeMccJD5RrNqg" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_-0fiQfn3EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0fiQvn3EeeMccJD5RrNqg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_d9gosPn4EeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_d9Ys4Pn4EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d9gosfn4EeeMccJD5RrNqg" x="82" y="18" width="16" height="346"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_-0TVAPn3EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0W_Yfn3EeeMccJD5RrNqg" x="110" y="10" width="180" height="437"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RVNrcPn4EeeMccJD5RrNqg" type="Lifeline_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ea4qkPxQEeep39DgVy6qnw" source="CustomExtensionInfo">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ea5RoPxQEeep39DgVy6qnw" key="manual.label.size" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RVNrcvn4EeeMccJD5RrNqg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_RVVAMPn4EeeMccJD5RrNqg" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RVVAMfn4EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RVVAMvn4EeeMccJD5RrNqg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_0qCrAPn4EeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_0pyMUPn4EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0qCrAfn4EeeMccJD5RrNqg" x="65" y="59" width="16" height="183"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_RVIy8Pn4EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RVNrcfn4EeeMccJD5RrNqg" x="373" y="74" width="146" height="373"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SljR8Pn4EeeMccJD5RrNqg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Slj5APn4EeeMccJD5RrNqg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_SlqmsPn4EeeMccJD5RrNqg" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Slqmsfn4EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Slqmsvn4EeeMccJD5RrNqg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Ml0HoPn5EeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_MljB4Pn5EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ml0Hofn5EeeMccJD5RrNqg" x="42" y="225" width="16" height="44"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_SlfAgPn4EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SljR8fn4EeeMccJD5RrNqg" x="698" y="10" width="100" height="437"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uJhRMPxREeep39DgVy6qnw" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_uJh4QPxREeep39DgVy6qnw" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_uJifUfxREeep39DgVy6qnw" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uJifU_xREeep39DgVy6qnw" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_uJHokPxREeep39DgVy6qnw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJifVPxREeep39DgVy6qnw" x="108"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_uJHBgPxREeep39DgVy6qnw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJifUvxREeep39DgVy6qnw" width="455" height="106"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uJh4QfxREeep39DgVy6qnw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uJh4QvxREeep39DgVy6qnw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJifUPxREeep39DgVy6qnw"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_uJFMUPxREeep39DgVy6qnw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJhRMfxREeep39DgVy6qnw" x="359" y="197" width="457" height="130"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tr6GJPn2EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_trw8MPn2EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tr6GJfn2EeeMccJD5RrNqg" x="45" y="19" width="876" height="495"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_tr6GJvn2EeeMccJD5RrNqg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tr6GJ_n2EeeMccJD5RrNqg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_tr6GKPn2EeeMccJD5RrNqg">
+    <owner xmi:type="uml:Model" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_trWsgPn2EeeMccJD5RrNqg"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_trw8MPn2EeeMccJD5RrNqg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_fzwYoPn4EeeMccJD5RrNqg" type="Message_FoundEdge" source="_tr6GIfn2EeeMccJD5RrNqg" target="_d9gosPn4EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fzw_sPn4EeeMccJD5RrNqg" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fzw_sfn4EeeMccJD5RrNqg" x="-74" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fzw_svn4EeeMccJD5RrNqg" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fzw_s_n4EeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fzwYofn4EeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_fzw_tPn4EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_fzoc0Pn4EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fzwYovn4EeeMccJD5RrNqg" points="[-48534, -50944, -95, -97]$[-48439, -50847, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f0VAYPn4EeeMccJD5RrNqg" id="(68.0,115.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f0VAYfn4EeeMccJD5RrNqg" id="(0.0,0.011560693641618497)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7ROaYPn4EeeMccJD5RrNqg" type="Message_SynchEdge" source="_-0W_YPn3EeeMccJD5RrNqg" target="_0qCrAPn4EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7ROaY_n4EeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7ROaZPn4EeeMccJD5RrNqg" x="-77" y="-14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7RPBcPn4EeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7RPBcfn4EeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7ROaYfn4EeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_7RPBcvn4EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_7Q3OAPn4EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ROaYvn4EeeMccJD5RrNqg" points="[6, 0, -203, -3]$[225, 3, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7RkYoPn4EeeMccJD5RrNqg" id="(1.0,0.300446572963894)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7RkYofn4EeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4xOGUPn5EeeMccJD5RrNqg" type="Message_SynchEdge" source="_0qCrAPn4EeeMccJD5RrNqg" target="_Ml0HoPn5EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4xOGU_n5EeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4xOGVPn5EeeMccJD5RrNqg" x="-61" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4xOGVfn5EeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4xOGVvn5EeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4xOGUfn5EeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_4xOGV_n5EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_4w1r0Pn5EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4xOGUvn5EeeMccJD5RrNqg" points="[1, 0, -192, 3]$[193, -3, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4xhBQPn5EeeMccJD5RrNqg" id="(0.875,0.5573770491803278)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4xhoUPn5EeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RnNIcPn6EeeMccJD5RrNqg" type="Message_ReplyEdge" source="_Ml0HoPn5EeeMccJD5RrNqg" target="_0qCrAPn4EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RnNvgPn6EeeMccJD5RrNqg" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RnNvgfn6EeeMccJD5RrNqg" x="87" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RnNvgvn6EeeMccJD5RrNqg" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RnNvg_n6EeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RnNIcfn6EeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_RnNvhPn6EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_Rm5mcPn6EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RnNIcvn6EeeMccJD5RrNqg" points="[0, 0, 193, -8]$[-192, 13, 1, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RoHHYPn6EeeMccJD5RrNqg" id="(0.0,0.8181818181818179){32}"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RoHHYfn6EeeMccJD5RrNqg" id="(0.9375,0.7978142076502732)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c0oDIPn6EeeMccJD5RrNqg" type="Message_ReplyEdge" source="_0qCrAPn4EeeMccJD5RrNqg" target="_-0W_YPn3EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c0oqMPn6EeeMccJD5RrNqg" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c0oqMfn6EeeMccJD5RrNqg" x="101" y="-22"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c0oqMvn6EeeMccJD5RrNqg" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c0oqM_n6EeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_c0oDIfn6EeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_c0oqNPn6EeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_c0Rd0Pn6EeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c0oDIvn6EeeMccJD5RrNqg" points="[0, 0, 208, -7]$[-207, 51, 1, 44]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c1ipIPn6EeeMccJD5RrNqg" id="(0.0,0.8852459016393442){32}"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c1jQMPn6EeeMccJD5RrNqg" id="(1.0,0.7658924933751723){R}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_POKJEPxNEeep39DgVy6qnw" type="Message_CreateEdge" source="_d9gosPn4EeeMccJD5RrNqg" target="_RVNrcPn4EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_POLXMPxNEeep39DgVy6qnw" type="Message_CreateNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_POLXMfxNEeep39DgVy6qnw" x="-47" y="-14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_POLXMvxNEeep39DgVy6qnw" type="Message_CreateStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_POLXM_xNEeep39DgVy6qnw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_POKJEfxNEeep39DgVy6qnw"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_POLXNPxNEeep39DgVy6qnw"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20для%20функции%20saveTestClck.uml#_PNEj8PxNEeep39DgVy6qnw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_POKJEvxNEeep39DgVy6qnw" points="[2, -1, -237, 2]$[239, 83, 0, 86]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PQQa0PxNEeep39DgVy6qnw" id="(0.875,0.09248554913294797)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PQQa0fxNEeep39DgVy6qnw" id="(1.0,1.0)"/>
+  </edges>
+</notation:Diagram>

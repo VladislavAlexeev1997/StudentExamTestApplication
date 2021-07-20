@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Suj38PtAEeecHbW2iPCJkA" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_cHOQcPtAEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cHO3gPtAEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_cHO3gftAEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_kYgxMPtAEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kYhYQPtAEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kYhYQftAEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kYh_UPtAEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_kYh_UftAEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_kYh_UvtAEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYh_U_tAEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_kYZccPtAEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYgxMftAEeecHbW2iPCJkA" x="14" y="10" width="127"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_cHO3gvtAEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHO3g_tAEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_cHKmEPtAEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHOQcftAEeecHbW2iPCJkA" x="470" y="16" width="159" height="128"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1qzYYPtAEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1qz_cPtAEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1qz_cftAEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_K87SMPtBEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_K875QPtBEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_K88gUPtBEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_K88gUftBEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_K88gUvtBEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_K88gU_tBEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K88gVPtBEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_K8l7APtBEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K87SMftBEeecHbW2iPCJkA" x="24" y="9" width="157"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1qz_cvtAEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1qz_c_tAEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_1qvuAPtAEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1qzYYftAEeecHbW2iPCJkA" x="162" y="67" height="122"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_6s1H0PtAEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6s1u4PtAEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6s2V8PtAEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ZZcmIPtBEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZZdNMPtBEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZZdNMftBEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ZZd0QPtBEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZZd0QftBEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ZZd0QvtBEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZd0Q_tBEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_ZZJrMPtBEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZcmIftBEeecHbW2iPCJkA" x="5" y="9" width="154"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6s2V8ftAEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6s2V8vtAEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_6sw2YPtAEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6s1H0ftAEeecHbW2iPCJkA" x="471" y="221" height="116"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-ZN6APtAEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-ZOhEPtAEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_-ZPIIPtAEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_hlsO0PtBEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_hls14PtBEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_hltc8PtBEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_hltc8ftBEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_hltc8vtBEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_hltc8_tBEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hltc9PtBEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_hlPi4PtBEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hlsO0ftBEeecHbW2iPCJkA" x="20" y="3" width="162"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-ZPIIftAEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ZPIIvtAEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_-ZKPoPtAEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ZN6AftAEeecHbW2iPCJkA" x="748" y="43" height="117"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KhJfsPtCEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KhLU4PtCEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KhMjAPtCEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_i24UcPtCEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_i26JoPtCEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_i26JoftCEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_i26JovtCEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_i26wsPtCEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_i26wsftCEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i26wsvtCEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_i2Lw4PtCEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i24UcftCEeecHbW2iPCJkA" x="12" y="7" width="148"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_KhMjAftCEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KhMjAvtCEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_KhEAIPtCEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KhJfsftCEeecHbW2iPCJkA" x="708" y="210" height="116"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ambhMPtCEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_amcvUPtCEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_amcvUftCEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_onKRAPtCEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_onLfIPtCEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_onLfIftCEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_onLfIvtCEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_onMGMPtCEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_onMGMftCEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onMGMvtCEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_omm3YPtCEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onKRAftCEeecHbW2iPCJkA" x="37" y="6" width="139"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_amcvUvtCEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_amcvU_tCEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_amX20PtCEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ambhMftCEeecHbW2iPCJkA" x="898" y="209" height="118"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7g7MUPtCEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7g7zYPtCEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7g7zYftCEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Jv3XQPtDEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Jv3-UPtDEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Jv4lYPtDEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Jv4lYftDEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Jv4lYvtDEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Jv4lY_tDEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jv4lZPtDEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_JvKMoPtDEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jv3XQftDEeecHbW2iPCJkA" x="17" y="7" width="142"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7g7zYvtCEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7g7zY_tCEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_7g4JAPtCEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7g7MUftCEeecHbW2iPCJkA" x="471" y="389" height="115"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SZQO8PtDEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SZRdEPtDEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SZRdEftDEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_rfxyAPtEEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_rfzAIPtEEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rfzAIftEEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rfzAIvtEEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_rfznMPtEEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_rfznMftEEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rfznMvtEEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_rfBkEPtEEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rfxyAftEEeecHbW2iPCJkA" x="15" y="7" width="123"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SZRdEvtDEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZRdE_tDEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_SZOZwPtDEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZQO8ftDEeecHbW2iPCJkA" x="740" y="391" width="166" height="114"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_6tljgPtFEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6tmKkPtFEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6tmKkftFEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_JkIhAPtGEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JkJIEPtGEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_JkJvIPtGEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_JkJvIftGEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JkJvIvtGEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_JkJvI_tGEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkJvJPtGEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_JjIbcPtGEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkIhAftGEeecHbW2iPCJkA" x="5" y="14"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6tmKkvtFEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6tmKk_tFEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_6tigMPtFEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6tljgftFEeecHbW2iPCJkA" x="37" y="240" height="119"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TnifoPtGEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TnjGsPtGEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TnjGsftGEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_baAWYPtGEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_baA9cPtGEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_baA9cftGEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_baBkgPtGEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_baBkgftGEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_baBkgvtGEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_baBkg_tGEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_bY90kPtGEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_baAWYftGEeecHbW2iPCJkA" x="24" y="14" width="182"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TnjGsvtGEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TnjGs_tGEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_TngDYPtGEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TnifoftGEeecHbW2iPCJkA" x="222" y="237" height="124"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_onWhcPtGEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_onXIgPtGEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_onXvkPtGEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_w-6pUPtGEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_w-7QYPtGEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_w-7QYftGEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_w-7QYvtGEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_w-7QY_tGEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_w-73cPtGEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w-73cftGEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_w9tvcPtGEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w-6pUftGEeecHbW2iPCJkA" x="5" y="10" width="169"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_onXvkftGEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onXvkvtGEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_onUsQPtGEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onWhcftGEeecHbW2iPCJkA" x="42" y="394" width="193" height="118"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-T5tcPtGEeecHbW2iPCJkA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-T6UgPtGEeecHbW2iPCJkA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_-T67kPtGEeecHbW2iPCJkA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_UXPBwPtHEeecHbW2iPCJkA" type="Component_PackagedElementShape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_UXPo0PtHEeecHbW2iPCJkA" type="Component_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_UXPo0ftHEeecHbW2iPCJkA" type="Component_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UXPo0vtHEeecHbW2iPCJkA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_UXPo0_tHEeecHbW2iPCJkA" type="Component_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_UXPo1PtHEeecHbW2iPCJkA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXPo1ftHEeecHbW2iPCJkA"/>
+        </children>
+        <element xmi:type="uml:Component" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_UWWQ8PtHEeecHbW2iPCJkA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXPBwftHEeecHbW2iPCJkA" x="16" y="10"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-T67kftGEeecHbW2iPCJkA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-T67kvtGEeecHbW2iPCJkA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_-T2qIPtGEeecHbW2iPCJkA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-T5tcftGEeecHbW2iPCJkA" x="254" y="512" height="115"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_Suj38ftAEeecHbW2iPCJkA" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Suj38vtAEeecHbW2iPCJkA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Suj38_tAEeecHbW2iPCJkA">
+    <owner xmi:type="uml:Model" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_Sub8IPtAEeecHbW2iPCJkA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_Sub8IPtAEeecHbW2iPCJkA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_r5RXcPtBEeecHbW2iPCJkA" type="Dependency_Edge" source="_cHOQcPtAEeecHbW2iPCJkA" target="_1qzYYPtAEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_r5TMoPtBEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_G4sLQPtCEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r5TMoftBEeecHbW2iPCJkA" x="-2" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_r5TMovtBEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_G5KFUPtCEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r5TzsPtBEeecHbW2iPCJkA" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_r5RXcftBEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_r4bp8PtBEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r5RXcvtBEeecHbW2iPCJkA" points="[444, 91, -643984, -643984]$[349, 132, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r7Y3UPtBEeecHbW2iPCJkA" id="(0.0,0.5859375)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r7ZeYPtBEeecHbW2iPCJkA" id="(1.0,0.4344262295081967)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tAbz0PtBEeecHbW2iPCJkA" type="Dependency_Edge" source="_cHOQcPtAEeecHbW2iPCJkA" target="_6s1H0PtAEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tAca4PtBEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hFmKwPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tAdB8PtBEeecHbW2iPCJkA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tAdB8ftBEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hGj0EPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tAdB8vtBEeecHbW2iPCJkA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tAbz0ftBEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_s_yTkPtBEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tAbz0vtBEeecHbW2iPCJkA" points="[520, 144, -643984, -643984]$[520, 221, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tBb5YPtBEeecHbW2iPCJkA" id="(0.4779874213836478,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tBcgcPtBEeecHbW2iPCJkA" id="(0.43103448275862066,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_t76koPtBEeecHbW2iPCJkA" type="Dependency_Edge" source="_cHOQcPtAEeecHbW2iPCJkA" target="_-ZN6APtAEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_t78Z0PtBEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hJ1KgPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_t78Z0ftBEeecHbW2iPCJkA" x="1" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_t78Z0vtBEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hLO4sPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_t78Z0_tBEeecHbW2iPCJkA" x="1" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_t76koftBEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_t7OoIPtBEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t76kovtBEeecHbW2iPCJkA" points="[603, 77, -643984, -643984]$[722, 113, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t9XWIPtBEeecHbW2iPCJkA" id="(1.0,0.48420877659574457)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t9XWIftBEeecHbW2iPCJkA" id="(0.0,0.5501994680851063)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v0G_4PtCEeecHbW2iPCJkA" type="Dependency_Edge" source="_-ZN6APtAEeecHbW2iPCJkA" target="_KhJfsPtCEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v0IOAPtCEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hMjuYPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v0IOAftCEeecHbW2iPCJkA" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v0IOAvtCEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hNil0PtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v0IOA_tCEeecHbW2iPCJkA" x="1" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_v0Hm8PtCEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_vzhKAPtCEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v0Hm8ftCEeecHbW2iPCJkA" points="[813, 160, -643984, -643984]$[750, 210, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v1jKUPtCEeecHbW2iPCJkA" id="(0.4193772588267999,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v1jKUftCEeecHbW2iPCJkA" id="(0.387262455059065,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xL9joPtCEeecHbW2iPCJkA" type="Dependency_Edge" source="_-ZN6APtAEeecHbW2iPCJkA" target="_ambhMPtCEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xL-xwPtCEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hO2NYPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xL-xwftCEeecHbW2iPCJkA" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xL-xwvtCEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hQBSEPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xL-xw_tCEeecHbW2iPCJkA" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xL9joftCEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_xLOj0PtCEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xL9jovtCEeecHbW2iPCJkA" points="[881, 160, -643984, -643984]$[973, 209, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xNgbwPtCEeecHbW2iPCJkA" id="(0.729733794555572,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xNgbwftCEeecHbW2iPCJkA" id="(0.47190240182996585,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RU1kkPtDEeecHbW2iPCJkA" type="Dependency_Edge" source="_6s1H0PtAEeecHbW2iPCJkA" target="_7g7MUPtCEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RU2LoPtDEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hDq4IPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RU2LoftDEeecHbW2iPCJkA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RU2LovtDEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hEhMsPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RU2Lo_tDEeecHbW2iPCJkA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RU1kkftDEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_RUJBAPtDEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RU1kkvtDEeecHbW2iPCJkA" points="[530, 337, -643984, -643984]$[530, 389, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RWntQPtDEeecHbW2iPCJkA" id="(0.4885057471264368,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RWoUUPtDEeecHbW2iPCJkA" id="(0.45698924731182794,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7jPOkPtEEeecHbW2iPCJkA" type="Dependency_Edge" source="_7g7MUPtCEeecHbW2iPCJkA" target="_SZQO8PtDEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7jPOk_tEEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hBnCoPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7jPOlPtEEeecHbW2iPCJkA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7jPOlftEEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hCvEAPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7jP1oPtEEeecHbW2iPCJkA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7jPOkftEEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_7iirAPtEEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7jPOkvtEEeecHbW2iPCJkA" points="[631, 456, -643984, -643984]$[714, 456, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ko8wPtEEeecHbW2iPCJkA" id="(1.0,0.5832632071061242)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7kpj0PtEEeecHbW2iPCJkA" id="(0.0,0.5786644029428407)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ieAkoPtGEeecHbW2iPCJkA" type="Dependency_Edge" source="_1qzYYPtAEeecHbW2iPCJkA" target="_6tljgPtFEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ieBLsPtGEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_g_PrIPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ieBLsftGEeecHbW2iPCJkA" x="-2" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ieBywPtGEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hAb98PtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ieBywftGEeecHbW2iPCJkA" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ieAkoftGEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_ic38MPtGEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ieAkovtGEeecHbW2iPCJkA" points="[145, 189, -643984, -643984]$[80, 240, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_igU40PtGEeecHbW2iPCJkA" id="(0.2583732057416268,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_igVf4PtGEeecHbW2iPCJkA" id="(0.41973777462792344,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kHm_sPtGEeecHbW2iPCJkA" type="Dependency_Edge" source="_1qzYYPtAEeecHbW2iPCJkA" target="_TnifoPtGEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kHnmwPtGEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hHirgPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kHnmwftGEeecHbW2iPCJkA" x="-1" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kHoN0PtGEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_hInpkPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kHoN0ftGEeecHbW2iPCJkA" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kHm_sftGEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_kGlsAPtGEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kHm_svtGEeecHbW2iPCJkA" points="[262, 189, -643984, -643984]$[325, 237, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kJi5YPtGEeecHbW2iPCJkA" id="(0.6073655212411193,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kJjgcPtGEeecHbW2iPCJkA" id="(0.5486646122239344,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ua1jAPtGEeecHbW2iPCJkA" type="Dependency_Edge" source="_6tljgPtFEeecHbW2iPCJkA" target="_onWhcPtGEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ua2KEvtGEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_y0jVQPtGEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ua2KE_tGEeecHbW2iPCJkA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ua2xIPtGEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_y1qvkPtGEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ua2xIftGEeecHbW2iPCJkA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ua2KEPtGEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_uZuvwPtGEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ua2KEftGEeecHbW2iPCJkA" points="[89, 359, -643984, -643984]$[89, 359, -643984, -643984]$[89, 394, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ucxcsPtGEeecHbW2iPCJkA" id="(0.46987951807228917,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ucyDwPtGEeecHbW2iPCJkA" id="(0.37823834196891193,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_TPxDYPtHEeecHbW2iPCJkA" type="Dependency_Edge" source="_onWhcPtGEeecHbW2iPCJkA" target="_-T5tcPtGEeecHbW2iPCJkA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TPxqcPtHEeecHbW2iPCJkA" type="Dependency_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_g9dicPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TPyRgPtHEeecHbW2iPCJkA" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TPyRgftHEeecHbW2iPCJkA" type="Dependency_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_g-VFIPtHEeecHbW2iPCJkA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TPyRgvtHEeecHbW2iPCJkA" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TPxDYftHEeecHbW2iPCJkA"/>
+    <element xmi:type="uml:Dependency" href="Диаграмма%20пакетов%20верхнего%20уровня,%20определяющая%20структуру%20программной%20среды%20на%20уровне%20страниц.uml#_TOt6gPtHEeecHbW2iPCJkA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TPxDYvtHEeecHbW2iPCJkA" points="[209, 480, -643984, -643984]$[307, 512, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TRm2cPtHEeecHbW2iPCJkA" id="(1.0,0.733513744480843)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TRm2cftHEeecHbW2iPCJkA" id="(0.4204956836535789,-5.26327952414889E-16)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Sub8IPtAEeecHbW2iPCJkA" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_cHKmEPtAEeecHbW2iPCJkA" name="Страница авторизации">
+    <packagedElement xmi:type="uml:Component" xmi:id="_kYZccPtAEeecHbW2iPCJkA" name="AutoriziseServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_r4bp8PtBEeecHbW2iPCJkA" client="_cHKmEPtAEeecHbW2iPCJkA" supplier="_1qvuAPtAEeecHbW2iPCJkA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_s_yTkPtBEeecHbW2iPCJkA" client="_cHKmEPtAEeecHbW2iPCJkA" supplier="_6sw2YPtAEeecHbW2iPCJkA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_t7OoIPtBEeecHbW2iPCJkA" client="_cHKmEPtAEeecHbW2iPCJkA" supplier="_-ZKPoPtAEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1qvuAPtAEeecHbW2iPCJkA" name="Личный кабинет преподавателя">
+    <packagedElement xmi:type="uml:Component" xmi:id="_K8l7APtBEeecHbW2iPCJkA" name="TeacherStartPageServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ic38MPtGEeecHbW2iPCJkA" client="_1qvuAPtAEeecHbW2iPCJkA" supplier="_6tigMPtFEeecHbW2iPCJkA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_kGlsAPtGEeecHbW2iPCJkA" client="_1qvuAPtAEeecHbW2iPCJkA" supplier="_TngDYPtGEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6sw2YPtAEeecHbW2iPCJkA" name="Личный кабинет студента">
+    <packagedElement xmi:type="uml:Component" xmi:id="_ZZJrMPtBEeecHbW2iPCJkA" name="StudentStartPageServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_RUJBAPtDEeecHbW2iPCJkA" client="_6sw2YPtAEeecHbW2iPCJkA" supplier="_7g4JAPtCEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_-ZKPoPtAEeecHbW2iPCJkA" name="Личный кабинет администратора">
+    <packagedElement xmi:type="uml:Component" xmi:id="_hlPi4PtBEeecHbW2iPCJkA" name="AdminStartPageServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_vzhKAPtCEeecHbW2iPCJkA" client="_-ZKPoPtAEeecHbW2iPCJkA" supplier="_KhEAIPtCEeecHbW2iPCJkA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xLOj0PtCEeecHbW2iPCJkA" client="_-ZKPoPtAEeecHbW2iPCJkA" supplier="_amX20PtCEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KhEAIPtCEeecHbW2iPCJkA" name="Добавление пользователя">
+    <packagedElement xmi:type="uml:Component" xmi:id="_i2Lw4PtCEeecHbW2iPCJkA" name="AddNewUserServlet.java"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_amX20PtCEeecHbW2iPCJkA" name="Изменение данных пользователя">
+    <packagedElement xmi:type="uml:Component" xmi:id="_omm3YPtCEeecHbW2iPCJkA" name="EditUserDataServlet.java"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_7g4JAPtCEeecHbW2iPCJkA" name="Прохождение тестирования">
+    <packagedElement xmi:type="uml:Component" xmi:id="_JvKMoPtDEeecHbW2iPCJkA" name="StudentTestServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_7iirAPtEEeecHbW2iPCJkA" client="_7g4JAPtCEeecHbW2iPCJkA" supplier="_SZOZwPtDEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_SZOZwPtDEeecHbW2iPCJkA" name="Результат тестирования">
+    <packagedElement xmi:type="uml:Component" xmi:id="_rfBkEPtEEeecHbW2iPCJkA" name="ResultTest.html"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6tigMPtFEeecHbW2iPCJkA" name="Добавить тест">
+    <packagedElement xmi:type="uml:Component" xmi:id="_JjIbcPtGEeecHbW2iPCJkA" name="AddNewTestServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_uZuvwPtGEeecHbW2iPCJkA" client="_6tigMPtFEeecHbW2iPCJkA" supplier="_onUsQPtGEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TngDYPtGEeecHbW2iPCJkA" name="Просмотр результатов тестирования">
+    <packagedElement xmi:type="uml:Component" xmi:id="_bY90kPtGEeecHbW2iPCJkA" name="LookResultTestGroupServlet.java"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_onUsQPtGEeecHbW2iPCJkA" name="Добавить вопросы">
+    <packagedElement xmi:type="uml:Component" xmi:id="_w9tvcPtGEeecHbW2iPCJkA" name="AddQuestionsTestServlet.java"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_TOt6gPtHEeecHbW2iPCJkA" client="_onUsQPtGEeecHbW2iPCJkA" supplier="_-T2qIPtGEeecHbW2iPCJkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_-T2qIPtGEeecHbW2iPCJkA" name="Результат размещения теста">
+    <packagedElement xmi:type="uml:Component" xmi:id="_UWWQ8PtHEeecHbW2iPCJkA" name="ResultAddTest.jsp"/>
+  </packagedElement>
+</uml:Model>

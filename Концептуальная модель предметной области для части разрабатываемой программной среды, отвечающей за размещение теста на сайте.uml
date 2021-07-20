@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-X_YcPlzEeeMccJD5RrNqg" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_lulu4Pl1EeeMccJD5RrNqg">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mICwsPl1EeeMccJD5RrNqg">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Nn6fQPl0EeeMccJD5RrNqg" name="Преподаватель">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_508OkPl0EeeMccJD5RrNqg" name="Логин">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WXXGMPl1EeeMccJD5RrNqg" name="Фамилия">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xbn_kPl1EeeMccJD5RrNqg" name="Имя">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YOEJIPl1EeeMccJD5RrNqg" name="Отчество">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2oCi0Pl2EeeMccJD5RrNqg" name="тест" type="_OOohAPl0EeeMccJD5RrNqg" association="_2nqIUPl2EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_haD50PxCEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hbhSYPxCEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dr5Y4Pl3EeeMccJD5RrNqg" name="использует" type="_OfBtcPl0EeeMccJD5RrNqg" association="_dr4KwPl3EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_OOohAPl0EeeMccJD5RrNqg" name="Тест">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JRF-EPl2EeeMccJD5RrNqg" name="Наименование дисциплины">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WoZWYPl2EeeMccJD5RrNqg" name="Наименование теста">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hf7F8vl3EeeMccJD5RrNqg" name="вопрос" type="_Ox-eoPl0EeeMccJD5RrNqg" association="_Hf6e4Pl3EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MtA14Pl3EeeMccJD5RrNqg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MtFHUPl3EeeMccJD5RrNqg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_OfBtcPl0EeeMccJD5RrNqg" name="Размещение теста">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hdZ7ovl3EeeMccJD5RrNqg" name="добавляет" type="_OOohAPl0EeeMccJD5RrNqg" association="_hdZUkPl3EeeMccJD5RrNqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pTRRwPxCEeep39DgVy6qnw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pTcQ4PxCEeep39DgVy6qnw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Ox-eoPl0EeeMccJD5RrNqg" name="Вопрос"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2nqIUPl2EeeMccJD5RrNqg" memberEnd="_2oCi0Pl2EeeMccJD5RrNqg _2oKeoPl2EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2n28oPl2EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2n3jsPl2EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2oKeoPl2EeeMccJD5RrNqg" name="создает" type="_Nn6fQPl0EeeMccJD5RrNqg" association="_2nqIUPl2EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hf6e4Pl3EeeMccJD5RrNqg" name="включает в себя" memberEnd="_Hf7F8vl3EeeMccJD5RrNqg _HgcDUPl3EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hf7F8Pl3EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Hf7F8fl3EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HgcDUPl3EeeMccJD5RrNqg" name="тест" type="_OOohAPl0EeeMccJD5RrNqg" association="_Hf6e4Pl3EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dr4KwPl3EeeMccJD5RrNqg" memberEnd="_dr5Y4Pl3EeeMccJD5RrNqg _dr5Y4fl3EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dr4x0Pl3EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dr4x0fl3EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dr5Y4fl3EeeMccJD5RrNqg" name="преподаватель" type="_Nn6fQPl0EeeMccJD5RrNqg" association="_dr4KwPl3EeeMccJD5RrNqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hdZUkPl3EeeMccJD5RrNqg" memberEnd="_hdZ7ovl3EeeMccJD5RrNqg _hd8uMPl3EeeMccJD5RrNqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hdZ7oPl3EeeMccJD5RrNqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hdZ7ofl3EeeMccJD5RrNqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hd8uMPl3EeeMccJD5RrNqg" name="размещение теста" type="_OfBtcPl0EeeMccJD5RrNqg" association="_hdZUkPl3EeeMccJD5RrNqg"/>
+  </packagedElement>
+</uml:Model>

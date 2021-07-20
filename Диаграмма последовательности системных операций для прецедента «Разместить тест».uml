@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bxZVEPm5EeeMccJD5RrNqg" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_byYMgPm5EeeMccJD5RrNqg" name="Разместить тест">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_oFBbIPm_EeeMccJD5RrNqg" name="Преподаватель" coveredBy="_uTAGsPnHEeeMccJD5RrNqg _hB0dIPnKEeeMccJD5RrNqg _uo8IMPnMEeeMccJD5RrNqg _uo66EPnMEeeMccJD5RrNqg _33RnYPnJEeeMccJD5RrNqg _v2lucPnJEeeMccJD5RrNqg _h4K9sPnHEeeMccJD5RrNqg _JkoIAPnMEeeMccJD5RrNqg _ZdBWUPnHEeeMccJD5RrNqg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_q7B-8Pm_EeeMccJD5RrNqg" name="Система" coveredBy="_btMCIPnHEeeMccJD5RrNqg _h4LkwPnHEeeMccJD5RrNqg _uS-4kPnHEeeMccJD5RrNqg _TWQsEPnKEeeMccJD5RrNqg _TWQFAPnKEeeMccJD5RrNqg _gCzQIPnKEeeMccJD5RrNqg _hB1EMPnKEeeMccJD5RrNqg _XvMlwPnLEeeMccJD5RrNqg _d2hwYPnLEeeMccJD5RrNqg _Jkm54PnMEeeMccJD5RrNqg _uo8IMPnMEeeMccJD5RrNqg _uo66EPnMEeeMccJD5RrNqg _tFHFUPnJEeeMccJD5RrNqg _tFHsYPnJEeeMccJD5RrNqg _v2njoPnJEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h4K9sPnHEeeMccJD5RrNqg" name="MessageSend" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_h4JvkPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_btMCIPnHEeeMccJD5RrNqg" name="ActionExecSpec0" covered="_q7B-8Pm_EeeMccJD5RrNqg" finish="_uS-4kPnHEeeMccJD5RrNqg" start="_h4LkwPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_ZdBWUPnHEeeMccJD5RrNqg" name="ActionExecSpec" covered="_oFBbIPm_EeeMccJD5RrNqg" finish="_JkoIAPnMEeeMccJD5RrNqg" start="_h4K9sPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h4LkwPnHEeeMccJD5RrNqg" name="MessageRecv" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_h4JvkPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uS-4kPnHEeeMccJD5RrNqg" name="MessageSend0" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_uSyrUPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uTAGsPnHEeeMccJD5RrNqg" name="MessageRecv0" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_uSyrUPnHEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_uo66EPnMEeeMccJD5RrNqg" covered="_oFBbIPm_EeeMccJD5RrNqg _q7B-8Pm_EeeMccJD5RrNqg" interactionOperator="loop">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_uo8IMPnMEeeMccJD5RrNqg" name="InteractionOperand" covered="_oFBbIPm_EeeMccJD5RrNqg _q7B-8Pm_EeeMccJD5RrNqg">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v2lucPnJEeeMccJD5RrNqg" name="MessageSend1" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_v2irIPnJEeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_tFHFUPnJEeeMccJD5RrNqg" name="ActionExecSpec1" covered="_q7B-8Pm_EeeMccJD5RrNqg" finish="_tFHsYPnJEeeMccJD5RrNqg" start="_v2njoPnJEeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v2njoPnJEeeMccJD5RrNqg" name="MessageRecv1" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_v2irIPnJEeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_33QZQPnJEeeMccJD5RrNqg" name="MessageSend2" message="_33OkEPnJEeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_33RnYPnJEeeMccJD5RrNqg" name="MessageRecv2" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_33OkEPnJEeeMccJD5RrNqg"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tFHsYPnJEeeMccJD5RrNqg" name="ActionExecSpec1Finish" covered="_q7B-8Pm_EeeMccJD5RrNqg" execution="_tFHFUPnJEeeMccJD5RrNqg"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_uo8IMfnMEeeMccJD5RrNqg" name="Преподаватель добавляет вопросы">
+          <specification xmi:type="uml:LiteralString" xmi:id="_uo8IMvnMEeeMccJD5RrNqg" value="Преподаватель добавляет вопросы"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hB0dIPnKEeeMccJD5RrNqg" name="MessageSend3" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_hByn8PnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d2hwYPnLEeeMccJD5RrNqg" name="ActionExecSpec2Start" covered="_q7B-8Pm_EeeMccJD5RrNqg" execution="_TWQFAPnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_TWQFAPnKEeeMccJD5RrNqg" name="ActionExecSpec2" covered="_q7B-8Pm_EeeMccJD5RrNqg" finish="_TWQsEPnKEeeMccJD5RrNqg" start="_d2hwYPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hB1EMPnKEeeMccJD5RrNqg" name="MessageRecv3" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_hByn8PnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XvMlwPnLEeeMccJD5RrNqg" name="MessageSend4" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_XvLXoPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2RCXcPnLEeeMccJD5RrNqg" name="ActionExecSpec4Start" execution="_2RDlkPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_2RDlkPnLEeeMccJD5RrNqg" name="ActionExecSpec4" finish="_2RDlkfnLEeeMccJD5RrNqg" start="_2RCXcPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2RDlkfnLEeeMccJD5RrNqg" name="ActionExecSpec4Finish" execution="_2RDlkPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Jkm54PnMEeeMccJD5RrNqg" name="MessageSend5" covered="_q7B-8Pm_EeeMccJD5RrNqg" message="_JklEsPnMEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_TWQsEPnKEeeMccJD5RrNqg" name="ActionExecSpec2Finish" covered="_q7B-8Pm_EeeMccJD5RrNqg" execution="_TWQFAPnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_EvHAAPnLEeeMccJD5RrNqg" name="ActionExecSpec2Start" execution="_TWQFAPnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_gCzQIPnKEeeMccJD5RrNqg" name="ActionExecSpec2Start" covered="_q7B-8Pm_EeeMccJD5RrNqg" execution="_TWQFAPnKEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JkoIAPnMEeeMccJD5RrNqg" name="MessageRecv4" covered="_oFBbIPm_EeeMccJD5RrNqg" message="_JklEsPnMEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_EtJRIPnLEeeMccJD5RrNqg" name="ActionExecSpec3" finish="_EtKfQPnLEeeMccJD5RrNqg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_EtKfQPnLEeeMccJD5RrNqg" name="ActionExecSpec3Finish" execution="_EtJRIPnLEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_h4JvkPnHEeeMccJD5RrNqg" name="addQuestsClck()" receiveEvent="_h4LkwPnHEeeMccJD5RrNqg" sendEvent="_h4K9sPnHEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_uSyrUPnHEeeMccJD5RrNqg" name="Открытие страницыдобавления вопросов" messageSort="reply" receiveEvent="_uTAGsPnHEeeMccJD5RrNqg" sendEvent="_uS-4kPnHEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_v2irIPnJEeeMccJD5RrNqg" name="addQuestClck()" receiveEvent="_v2njoPnJEeeMccJD5RrNqg" sendEvent="_v2lucPnJEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_33OkEPnJEeeMccJD5RrNqg" name="Размещение формы добавления данных вопроса на странице" messageSort="reply" receiveEvent="_33RnYPnJEeeMccJD5RrNqg" sendEvent="_33QZQPnJEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_hByn8PnKEeeMccJD5RrNqg" name="saveTestClck()" receiveEvent="_hB1EMPnKEeeMccJD5RrNqg" sendEvent="_hB0dIPnKEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_XvLXoPnLEeeMccJD5RrNqg" name="Сохранение теста" sendEvent="_XvMlwPnLEeeMccJD5RrNqg"/>
+    <message xmi:type="uml:Message" xmi:id="_JklEsPnMEeeMccJD5RrNqg" name="Новый тест сохранен и размещен на сайте" messageSort="reply" receiveEvent="_JkoIAPnMEeeMccJD5RrNqg" sendEvent="_Jkm54PnMEeeMccJD5RrNqg"/>
+  </packagedElement>
+</uml:Model>

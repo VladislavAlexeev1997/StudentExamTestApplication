@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_b1QhYPm5EeeMccJD5RrNqg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_b1QhYfm5EeeMccJD5RrNqg" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_b1QhYvm5EeeMccJD5RrNqg" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_b1QhY_m5EeeMccJD5RrNqg" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_oF0sYPm_EeeMccJD5RrNqg" type="Lifeline_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_py7HYPm_EeeMccJD5RrNqg" source="CustomExtensionInfo">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_py8VgPm_EeeMccJD5RrNqg" key="manual.label.size" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_oF2hkPm_EeeMccJD5RrNqg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_oJBKUPm_EeeMccJD5RrNqg" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_oJBKUfm_EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oJBKUvm_EeeMccJD5RrNqg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ZdKgQPnHEeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_ZdBWUPnHEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZdKgQfnHEeeMccJD5RrNqg" x="52" y="25" width="16" height="387"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_oFBbIPm_EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oF0sYfm_EeeMccJD5RrNqg" x="67" y="10" width="121" height="455"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_q7G3cPm_EeeMccJD5RrNqg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_q7Hegfm_EeeMccJD5RrNqg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_q7SdoPm_EeeMccJD5RrNqg" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_q7Sdofm_EeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q7Sdovm_EeeMccJD5RrNqg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_btZdgPnHEeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_btMCIPnHEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_btZdgfnHEeeMccJD5RrNqg" x="42" y="25" width="16" height="76"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_tFVHwPnJEeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_tFHFUPnJEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tFVHwfnJEeeMccJD5RrNqg" x="42" y="202" width="16" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2RUrUPnLEeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_2RDlkPnLEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2RUrUfnLEeeMccJD5RrNqg" x="51" y="371" width="16" height="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_TWlcMPnKEeeMccJD5RrNqg" type="ActionExecutionSpecification_Shape">
+          <children xmi:type="notation:BasicCompartment" xmi:id="_TW6zYPnKEeeMccJD5RrNqg" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_TW6zYfnKEeeMccJD5RrNqg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TW6zYvnKEeeMccJD5RrNqg"/>
+          </children>
+          <element xmi:type="uml:ActionExecutionSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_TWQFAPnKEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TWlcMfnKEeeMccJD5RrNqg" x="42" y="316" width="16" height="95"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_q7B-8Pm_EeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q7HegPm_EeeMccJD5RrNqg" x="434" y="10" width="100" height="455"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_upUisPnMEeeMccJD5RrNqg" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_upVJwPnMEeeMccJD5RrNqg" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_upVJxPnMEeeMccJD5RrNqg" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_upVw0PnMEeeMccJD5RrNqg" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_uo8IMfnMEeeMccJD5RrNqg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_upVw0fnMEeeMccJD5RrNqg" x="91" y="4"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_uo8IMPnMEeeMccJD5RrNqg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_upVJxfnMEeeMccJD5RrNqg" width="504" height="132"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_upVJwfnMEeeMccJD5RrNqg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_upVJwvnMEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_upVJw_nMEeeMccJD5RrNqg"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_uo66EPnMEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_upUisfnMEeeMccJD5RrNqg" x="49" y="171" width="506" height="156"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b1QhZPm5EeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_cN_xgPm5EeeMccJD5RrNqg" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_cN_xgfm5EeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cN_xgvm5EeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_byYMgPm5EeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b1QhZfm5EeeMccJD5RrNqg" x="31" y="-2" width="662" height="515"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_b1QhZvm5EeeMccJD5RrNqg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_b1QhZ_m5EeeMccJD5RrNqg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_b1QhaPm5EeeMccJD5RrNqg">
+    <owner xmi:type="uml:Model" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_bxZVEPm5EeeMccJD5RrNqg"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_byYMgPm5EeeMccJD5RrNqg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_h5elQPnHEeeMccJD5RrNqg" type="Message_SynchEdge" source="_ZdKgQPnHEeeMccJD5RrNqg" target="_btZdgPnHEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h5fMUPnHEeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h5fMUfnHEeeMccJD5RrNqg" x="-39" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_h5fMUvnHEeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h5fMU_nHEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_h5elQfnHEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_h5fMVPnHEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_h4JvkPnHEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h5elQvnHEeeMccJD5RrNqg" points="[12, 0, -328, 30]$[356, -30, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h574QPnHEeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h574QfnHEeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uTbkgPnHEeeMccJD5RrNqg" type="Message_ReplyEdge" source="_btZdgPnHEeeMccJD5RrNqg" target="_oF0sYPm_EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uTcLkPnHEeeMccJD5RrNqg" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uTcLkfnHEeeMccJD5RrNqg" x="112" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uTcLkvnHEeeMccJD5RrNqg" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uTcLk_nHEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uTbkgfnHEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_uTcLlPnHEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_uSyrUPnHEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uTbkgvnHEeeMccJD5RrNqg" points="[-5, 0, 328, -9]$[-333, 9, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uUoeYPnHEeeMccJD5RrNqg" id="(0.3125,0.5921052631578947)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uUpFcPnHEeeMccJD5RrNqg" id="(1.0,0.2398103044496487){R}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v30dgPnJEeeMccJD5RrNqg" type="Message_SynchEdge" source="_oF0sYPm_EeeMccJD5RrNqg" target="_tFVHwPnJEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v32SsPnJEeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v32SsfnJEeeMccJD5RrNqg" x="-30" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v32SsvnJEeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v32Ss_nJEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_v30dgfnJEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_v32StPnJEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_v2irIPnJEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v30dgvnJEeeMccJD5RrNqg" points="[4, 0, -303, -3]$[323, 3, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4sAMPnJEeeMccJD5RrNqg" id="(1.0,0.47256736465077837)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4sAMfnJEeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_33m-kPnJEeeMccJD5RrNqg" type="Message_ReplyEdge" source="_tFVHwPnJEeeMccJD5RrNqg" target="_oF0sYPm_EeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_33nloPnJEeeMccJD5RrNqg" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_33nlofnJEeeMccJD5RrNqg" x="165" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_33nlovnJEeeMccJD5RrNqg" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_33nlo_nJEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_33m-kfnJEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_33nlpPnJEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_33OkEPnJEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_33m-kvnJEeeMccJD5RrNqg" points="[0, 0, 307, -11]$[-303, 78, 4, 67]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_34kA0PnJEeeMccJD5RrNqg" id="(0.0,1.0){32}"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_34kn4PnJEeeMccJD5RrNqg" id="(1.0,0.5971746797079488){R}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hDDMMPnKEeeMccJD5RrNqg" type="Message_SynchEdge" source="_ZdKgQPnHEeeMccJD5RrNqg" target="_TWlcMPnKEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDDMM_nKEeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hDDMNPnKEeeMccJD5RrNqg" x="-25" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDDMNfnKEeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hDDzQPnKEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hDDMMfnKEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_hDDzQfnKEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_hByn8PnKEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hDDMMvnKEeeMccJD5RrNqg" points="[6, 0, -347, 3]$[353, -3, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hDX8UPnKEeeMccJD5RrNqg" id="(0.625,0.7545219638242894)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hDX8UfnKEeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YWi5oPnLEeeMccJD5RrNqg" type="Message_SynchEdge" source="_TWlcMPnKEeeMccJD5RrNqg" target="_2RUrUPnLEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWkHwPnLEeeMccJD5RrNqg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YWkHwfnLEeeMccJD5RrNqg" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWkHwvnLEeeMccJD5RrNqg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YWkHw_nLEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_YW8iQPnLEeeMccJD5RrNqg" type="MessageEnd_Shape">
+      <element xmi:type="uml:MessageOccurrenceSpecification" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_XvMlwPnLEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YW8iQfnLEeeMccJD5RrNqg"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_YW_lkPnLEeeMccJD5RrNqg" type="MessageEnd_Shape">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YW_lkfnLEeeMccJD5RrNqg"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YWi5ofnLEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_YWkHxPnLEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_XvLXoPnLEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YWi5ovnLEeeMccJD5RrNqg" points="[5, 0, 7, -26]$[39, 0, 41, -26]$[39, 26, 41, 0]$[-2, 26, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YXqT8PnLEeeMccJD5RrNqg" id="(0.6875,0.23684210526315788)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YZVu8PnLEeeMccJD5RrNqg" id="(0.0,0.0){8}"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JlEM4PnMEeeMccJD5RrNqg" type="Message_ReplyEdge" source="_TWlcMPnKEeeMccJD5RrNqg" target="_ZdKgQPnHEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JlFbAPnMEeeMccJD5RrNqg" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JlFbAfnMEeeMccJD5RrNqg" x="107" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JlFbAvnMEeeMccJD5RrNqg" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JlFbA_nMEeeMccJD5RrNqg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JlEM4fnMEeeMccJD5RrNqg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_JlFbBPnMEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:Message" href="Диаграмма%20последовательности%20системных%20операций%20для%20прецедента%20«Разместить%20тест».uml#_JklEsPnMEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JlEM4vnMEeeMccJD5RrNqg" points="[-1, 0, 363, -7]$[-348, 7, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JlYV8PnMEeeMccJD5RrNqg" id="(0.0625,0.7052631578947368)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JlYV8fnMEeeMccJD5RrNqg" id="(0.0,0.9431524547803618){32}"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qSA80PX-EeeisYqq-6di0Q" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_s4ZJMPX-EeeisYqq-6di0Q" name="Студент"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_HCIcwPYAEeeisYqq-6di0Q" name="Оболочка для тестирования" useCase="_V-RPcPYBEeeisYqq-6di0Q _-oMKwPYJEeeisYqq-6di0Q _JkYykPYKEeeisYqq-6di0Q _VG0T8PYKEeeisYqq-6di0Q _XKol0PYKEeeisYqq-6di0Q _LABNoPYLEeeisYqq-6di0Q _ayzJ4PYLEeeisYqq-6di0Q _y3lYkPYLEeeisYqq-6di0Q _81P7kPYLEeeisYqq-6di0Q _AjB04PYMEeeisYqq-6di0Q">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_V-RPcPYBEeeisYqq-6di0Q" name="Авторизоваться" subject="_HCIcwPYAEeeisYqq-6di0Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-oMKwPYJEeeisYqq-6di0Q" name="Разместить тест" subject="_HCIcwPYAEeeisYqq-6di0Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JkYykPYKEeeisYqq-6di0Q" name="Редактировать тест" subject="_HCIcwPYAEeeisYqq-6di0Q">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7YFPcPYKEeeisYqq-6di0Q" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Bv2CwPYLEeeisYqq-6di0Q" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VG0T8PYKEeeisYqq-6di0Q" name="Редактировать вопрос теста" subject="_HCIcwPYAEeeisYqq-6di0Q">
+      <extend xmi:type="uml:Extend" xmi:id="_7X4bIPYKEeeisYqq-6di0Q" extendedCase="_JkYykPYKEeeisYqq-6di0Q" extensionLocation="_7YFPcPYKEeeisYqq-6di0Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XKol0PYKEeeisYqq-6di0Q" name="Удалить вопрос из теста" subject="_HCIcwPYAEeeisYqq-6di0Q">
+      <extend xmi:type="uml:Extend" xmi:id="_Bv0NkPYLEeeisYqq-6di0Q" extendedCase="_JkYykPYKEeeisYqq-6di0Q" extensionLocation="_Bv2CwPYLEeeisYqq-6di0Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LABNoPYLEeeisYqq-6di0Q" name="Просмотреть результат тестирования группы" subject="_HCIcwPYAEeeisYqq-6di0Q">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kqzJwfYLEeeisYqq-6di0Q" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ayzJ4PYLEeeisYqq-6di0Q" name="Выбрать группу студентов" subject="_HCIcwPYAEeeisYqq-6di0Q">
+      <extend xmi:type="uml:Extend" xmi:id="_kqzJwPYLEeeisYqq-6di0Q" extendedCase="_LABNoPYLEeeisYqq-6di0Q" extensionLocation="_kqzJwfYLEeeisYqq-6di0Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_y3lYkPYLEeeisYqq-6di0Q" name="Пройти тестирование" subject="_HCIcwPYAEeeisYqq-6di0Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_81P7kPYLEeeisYqq-6di0Q" name="Добавить нового пользователя" subject="_HCIcwPYAEeeisYqq-6di0Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AjB04PYMEeeisYqq-6di0Q" name="Добавить новую группу" subject="_HCIcwPYAEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_sX9qwPYAEeeisYqq-6di0Q" name="Преподаватель"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uVJwMPYAEeeisYqq-6di0Q" name="Администратор"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Rav5kPYEEeeisYqq-6di0Q" memberEnd="_Ray84PYEEeeisYqq-6di0Q _Ra2AMPYEEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RaxuwPYEEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RayV0PYEEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ray84PYEEeeisYqq-6di0Q" name="авторизоваться" type="_HCIcwPYAEeeisYqq-6di0Q" association="_Rav5kPYEEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ra2AMPYEEeeisYqq-6di0Q" name="преподаватель" type="_sX9qwPYAEeeisYqq-6di0Q" association="_Rav5kPYEEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SS6QoPYEEeeisYqq-6di0Q" memberEnd="_SS8s4fYEEeeisYqq-6di0Q _SS97APYEEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SS8F0PYEEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SS8s4PYEEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SS8s4fYEEeeisYqq-6di0Q" name="авторизоваться" type="_V-RPcPYBEeeisYqq-6di0Q" association="_SS6QoPYEEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SS97APYEEeeisYqq-6di0Q" name="студент" type="_s4ZJMPX-EeeisYqq-6di0Q" association="_SS6QoPYEEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X2NhIPYEEeeisYqq-6di0Q" memberEnd="_X2PWUPYEEeeisYqq-6di0Q _X2PWUfYEEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X2OvQPYEEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X2OvQfYEEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X2PWUPYEEeeisYqq-6di0Q" name="авторизоваться" type="_V-RPcPYBEeeisYqq-6di0Q" association="_X2NhIPYEEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X2PWUfYEEeeisYqq-6di0Q" name="администратор" type="_uVJwMPYAEeeisYqq-6di0Q" association="_X2NhIPYEEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FSlmMPYKEeeisYqq-6di0Q" memberEnd="_FSoCcPYKEeeisYqq-6di0Q _FSopgPYKEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FSm0UPYKEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FSnbYPYKEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FSoCcPYKEeeisYqq-6di0Q" name="разместить тест" type="_-oMKwPYJEeeisYqq-6di0Q" association="_FSlmMPYKEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FSopgPYKEeeisYqq-6di0Q" name="преподаватель" type="_sX9qwPYAEeeisYqq-6di0Q" association="_FSlmMPYKEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OgHFsPYKEeeisYqq-6di0Q" memberEnd="_OgI64PYKEeeisYqq-6di0Q _OgI64fYKEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OgHswPYKEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OgIT0PYKEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OgI64PYKEeeisYqq-6di0Q" name="редактировать тест" type="_JkYykPYKEeeisYqq-6di0Q" association="_OgHFsPYKEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OgI64fYKEeeisYqq-6di0Q" name="преподаватель" type="_sX9qwPYAEeeisYqq-6di0Q" association="_OgHFsPYKEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ROHHkPYLEeeisYqq-6di0Q" memberEnd="_ROIVsvYLEeeisYqq-6di0Q _ROI8wPYLEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ROIVsPYLEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ROIVsfYLEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ROIVsvYLEeeisYqq-6di0Q" name="просмотреть результат тестирования группы" type="_LABNoPYLEeeisYqq-6di0Q" association="_ROHHkPYLEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ROI8wPYLEeeisYqq-6di0Q" name="преподаватель" type="_sX9qwPYAEeeisYqq-6di0Q" association="_ROHHkPYLEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4N0dcPYLEeeisYqq-6di0Q" memberEnd="_4N1rkfYLEeeisYqq-6di0Q _4N1rkvYLEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4N1EgPYLEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4N1rkPYLEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4N1rkfYLEeeisYqq-6di0Q" name="студент" type="_s4ZJMPX-EeeisYqq-6di0Q" association="_4N0dcPYLEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4N1rkvYLEeeisYqq-6di0Q" name="пройти тестирование" type="_y3lYkPYLEeeisYqq-6di0Q" association="_4N0dcPYLEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JqnrgPYMEeeisYqq-6di0Q" memberEnd="_JqwOYPYMEeeisYqq-6di0Q _JqwOYfYMEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JqoSkPYMEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JqvAQPYMEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JqwOYPYMEeeisYqq-6di0Q" name="добавить нового пользователя" type="_81P7kPYLEeeisYqq-6di0Q" association="_JqnrgPYMEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JqwOYfYMEeeisYqq-6di0Q" name="администратор" type="_uVJwMPYAEeeisYqq-6di0Q" association="_JqnrgPYMEeeisYqq-6di0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KkYlEPYMEeeisYqq-6di0Q" memberEnd="_KkZMIvYMEeeisYqq-6di0Q _KkZzMPYMEeeisYqq-6di0Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KkZMIPYMEeeisYqq-6di0Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KkZMIfYMEeeisYqq-6di0Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KkZMIvYMEeeisYqq-6di0Q" name="добавить новую группу" type="_AjB04PYMEeeisYqq-6di0Q" association="_KkYlEPYMEeeisYqq-6di0Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KkZzMPYMEeeisYqq-6di0Q" name="администратор" type="_uVJwMPYAEeeisYqq-6di0Q" association="_KkYlEPYMEeeisYqq-6di0Q"/>
+  </packagedElement>
+</uml:Model>

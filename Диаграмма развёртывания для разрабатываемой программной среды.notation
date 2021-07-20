@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rXt-gPoNEeeMccJD5RrNqg" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_vLOsYPoNEeeMccJD5RrNqg" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLPTcPoNEeeMccJD5RrNqg" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vLPTcfoNEeeMccJD5RrNqg" type="Device_NestedNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9cTlUPoNEeeMccJD5RrNqg" type="ExecutionEnvironment_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9cUMYPoNEeeMccJD5RrNqg" type="ExecutionEnvironment_NameLabel_CCN"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_9cPT4PoNEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9cTlUfoNEeeMccJD5RrNqg" x="19" y="8" width="114" height="103"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_vLPTcvoNEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vLPTc_oNEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Device" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_vLMQIPoNEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vLOsYfoNEeeMccJD5RrNqg" x="8" y="122" width="183" height="182"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FryIMPoOEeeMccJD5RrNqg" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FryIMvoOEeeMccJD5RrNqg" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FryIM_oOEeeMccJD5RrNqg" type="Device_NestedNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ahYooPoPEeeMccJD5RrNqg" type="ExecutionEnvironment_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ahZPsPoPEeeMccJD5RrNqg" type="ExecutionEnvironment_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ahZPsfoPEeeMccJD5RrNqg" type="ExecutionEnvironment_NestedNodeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ahZPsvoPEeeMccJD5RrNqg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ahZPs_oPEeeMccJD5RrNqg"/>
+        </children>
+        <element xmi:type="uml:ExecutionEnvironment" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_ahTwIPoPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ahYoofoPEeeMccJD5RrNqg" x="37" y="22" width="122" height="110"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_FryINPoOEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FryINfoOEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Device" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_FrwTAPoOEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FryIMfoOEeeMccJD5RrNqg" x="265" y="106" width="228" height="213"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pfD-UPoOEeeMccJD5RrNqg" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pfD-UvoOEeeMccJD5RrNqg" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pfD-U_oOEeeMccJD5RrNqg" type="Device_NestedNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_f86dMPoPEeeMccJD5RrNqg" type="ExecutionEnvironment_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_f86dMvoPEeeMccJD5RrNqg" type="ExecutionEnvironment_NameLabel_CCN"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_f8wFIPoPEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f86dMfoPEeeMccJD5RrNqg" x="26" y="165" width="187" height="120"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RpC5gPoQEeeMccJD5RrNqg" type="ExecutionEnvironment_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RpDgkPoQEeeMccJD5RrNqg" type="ExecutionEnvironment_NameLabel_CCN"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_Ro5IgPoQEeeMccJD5RrNqg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RpC5gfoQEeeMccJD5RrNqg" x="6" y="21" width="257" height="130"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pfD-VPoOEeeMccJD5RrNqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfD-VfoOEeeMccJD5RrNqg"/>
+    </children>
+    <element xmi:type="uml:Device" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_pfCJIPoOEeeMccJD5RrNqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfD-UfoOEeeMccJD5RrNqg" x="579" y="49" width="294" height="351"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_rXt-gfoNEeeMccJD5RrNqg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rXt-gvoNEeeMccJD5RrNqg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_rXt-g_oNEeeMccJD5RrNqg">
+    <owner xmi:type="uml:Model" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_rXptEPoNEeeMccJD5RrNqg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_rXptEPoNEeeMccJD5RrNqg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_jBuugPoOEeeMccJD5RrNqg" type="CommunicationPath_Edge" source="_vLOsYPoNEeeMccJD5RrNqg" target="_FryIMPoOEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jBuug_oOEeeMccJD5RrNqg" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Oj0qcPoPEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jBvVkPoOEeeMccJD5RrNqg" x="-16" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jBvVkfoOEeeMccJD5RrNqg" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Oj_pkPoPEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jBvVkvoOEeeMccJD5RrNqg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jBuugfoOEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:CommunicationPath" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_jBcaoPoOEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jBuugvoOEeeMccJD5RrNqg" points="[191, 236, -643984, -643984]$[301, 236, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jCjN4PoOEeeMccJD5RrNqg" id="(1.0,0.6263736263736264)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jCjN4foOEeeMccJD5RrNqg" id="(0.0,0.6103286384976526)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vqj3QPoOEeeMccJD5RrNqg" type="CommunicationPath_Edge" source="_FryIMPoOEeeMccJD5RrNqg" target="_pfD-UPoOEeeMccJD5RrNqg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqkeUPoOEeeMccJD5RrNqg" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_xQFDkPoOEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vqkeUfoOEeeMccJD5RrNqg" x="-20" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vqkeUvoOEeeMccJD5RrNqg" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_xQNmcPoOEeeMccJD5RrNqg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vqkeU_oOEeeMccJD5RrNqg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vqj3QfoOEeeMccJD5RrNqg"/>
+    <element xmi:type="uml:CommunicationPath" href="Диаграмма%20развёртывания%20для%20разрабатываемой%20программной%20среды.uml#_vqT_oPoOEeeMccJD5RrNqg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vqj3QvoOEeeMccJD5RrNqg" points="[529, 233, -643984, -643984]$[630, 233, -643984, -643984]$[630, 233, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vq9f4PoOEeeMccJD5RrNqg" id="(1.0,0.596244131455399)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vq9f4foOEeeMccJD5RrNqg" id="(0.0,0.5242165242165242)"/>
+  </edges>
+</notation:Diagram>
